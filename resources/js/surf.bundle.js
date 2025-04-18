@@ -16,10 +16,12 @@
               height: 20,
               viewBox: "0 0 20 20",
               className: e,
+
             },
             i.createElement("path", {
               d: "M4.09 4.22l.06-.07a.5.5 0 01.63-.06l.07.06L10 9.29l5.15-5.14a.5.5 0 01.63-.06l.07.06c.18.17.2.44.06.63l-.06.07L10.71 10l5.14 5.15c.18.17.2.44.06.63l-.06.07a.5.5 0 01-.63.06l-.07-.06L10 10.71l-5.15 5.14a.5.5 0 01-.63.06l-.07-.06a.5.5 0 01-.06-.63l.06-.07L9.29 10 4.15 4.85a.5.5 0 01-.06-.63l.06-.07-.06.07z",
               fillRule: "nonzero",
+
             })
           );
         }
@@ -43,23 +45,30 @@
             toggle_toggleButton: {
               float: (0, d.zw)("right", "left"),
               marginInlineStart: "5px",
+
             },
             toggle_statusMessage: {
               paddingInlineStart: "0px",
+
             },
+
           },
           y = {
             button: {
               height: "fit-content",
               overflow: "visible",
               marginBottom: "16px",
+
             },
+
           },
           f = {
             button: {
               height: "28px",
               width: "fit-content",
+
             },
+
           },
           w = {
             settingsHamburgerMenu: {
@@ -67,12 +76,14 @@
               marginInlineStart: "auto",
               marginBottom: "4px",
               backgroundColor: "transparent",
+
             },
             settingsHamburgerMenu_settingsButton: {
               height: "20px",
               width: "20px",
               color: "currentColor",
               fill: "currentColor",
+
             },
             settingsHamburgerMenu_closeButton: {
               ...(0, u.b)(l.fn, b.k8, b.k8),
@@ -82,32 +93,40 @@
               [(0, d.Ih)("right", "left", l.fn.direction)]: "0",
               "& $settingsHamburgerMenu_closeButton_icon": {
                 ...(0, g.Zb)(),
+
               },
+
             },
             settingsHamburgerMenu_closeButton_icon: {},
             settingsHamburgerMenu_flyout_buttonSection: {
               display: "flex",
               flexDirection: "column",
+
             },
             settingsHamburgerMenu_flyout_divider: {
               margin: "4px -16px",
+
             },
             settingsHamburgerMenu_flyout: {
               padding: "16px",
+
             },
             settingsHamburgerMenu_flyout_label: {
               margin: "0 0 0.5em",
               display: "block",
+
             },
             settingsHamburgerMenu_flyout_row: {
               padding: "6px 0",
               display: "block",
+
             },
             settingsHamburgerMenu_flyout_score: {
               marginTop: "2px",
               paddingBottom: "6px",
               display: "flex",
               alignItems: "center",
+
             },
             settingsHamburgerMenu_flyout_scoreStar: {
               height: "16px",
@@ -115,6 +134,7 @@
               color: "currentColor",
               fill: "currentColor",
               marginInlineEnd: "4px",
+
             },
             settingsHamburgerMenu_flyout_shareRow: {
               display: "flex",
@@ -122,27 +142,33 @@
               justifyContent: "space-between",
               alignItems: "center",
               padding: "6px 0",
+
             },
             settingsHamburgerMenu_flyout_toggleRow: {
               display: "flex",
               flexDirection: "row",
               justifyContent: "space-between",
               padding: "6px 0",
+
             },
             settingsHamburgerMenu_centered: {
               margin: "0 auto",
+
             },
             settingsHamburgerMenu_icon: {
               color: p.CH,
               fill: "currentColor",
+
             },
             settingsHamburgerMenu_creditsTable: {
               margin: "0 auto",
               color: p.CH,
+
             },
             settingsHamburgerMenu_creditsTable_specialThanks: {
               marginTop: "8px",
               marginBottom: "4px",
+
             },
           };
         var v = s(71388),
@@ -175,9 +201,11 @@
               height: 20,
               viewBox: "0 0 20 20",
               className: e,
+
             },
             a.createElement("path", {
               d: "M3.37 10.17a.5.5 0 00-.74.66l4 4.5c.19.22.52.23.72.02l10.5-10.5a.5.5 0 00-.7-.7L7.02 14.27l-3.65-4.1z",
+
             })
           );
         }
@@ -190,10 +218,12 @@
               height: 20,
               viewBox: "0 0 20 20",
               className: e,
+
             },
             a.createElement("path", {
               d: "M8 6a.5.5 0 01.09 1H6a3 3 0 00-.2 6H8a.5.5 0 01.09 1H6a4 4 0 01-.22-8H8zm6 0a4 4 0 01.22 8H12a.5.5 0 01-.09-1H14a3 3 0 00.2-6H12a.5.5 0 01-.09-1H14zM6 9.5h8a.5.5 0 01.09 1H6a.5.5 0 01-.09-1H14 6z",
               fillRule: "nonzero",
+
             })
           );
         }
@@ -201,57 +231,63 @@
 
         function j(e) {
           switch (e) {
-            case "timetrial":
-            case "SPEED":
+            case "ski":
+            case "ski":
               return q.TimeTrial;
-            case "BUOY":
-            case "zigzag":
+            case "ski":
+            case "ski":
               return q.ZigZag;
-            case "CLASSIC":
-            case "endless":
+            case "ski":
+            case "ski":
             default:
               return q.Endless;
           }
         }
         let q;
         !(function (e) {
-          (e.ZigZag = "zigzag"),
-            (e.Endless = "endless"),
-            (e.TimeTrial = "timetrial");
+          (e.ZigZag = "ski"),
+            (e.Endless = "ski"),
+            (e.TimeTrial = "ski");
         })(q || (q = {}));
         const G = {
           ski: {
             gradient: {
               start: [244, 244, 244],
               end: [222, 222, 222],
+
             },
             hitbox: {
               crash: "#000000",
               boost: "#00FF00",
               avoid: "#FF0000",
+
             },
             boundary: [0, 0, 0, 0.1],
             accent: [216, 140, 249],
             folder: "resources/ski",
+
           },
           surf: {
             gradient: {
               start: [56, 194, 238],
               end: [46, 195, 208],
+
             },
             hitbox: {
               crash: "#000000",
               boost: "#00FF00",
               avoid: "#FF0000",
+
             },
             boundary: [255, 255, 255, 0.2],
             accent: [141, 249, 196],
             folder: "resources/surf",
+
           },
         };
 
         function K(e) {
-          return e in G ? e : "surf";
+          return e in G ? e : "ski";
         }
         var U = s(27670);
 
@@ -278,6 +314,7 @@
                   enumerable: !0,
                   configurable: !0,
                   writable: !0,
+
                 })
               : (e[t] = s),
             e
@@ -299,11 +336,13 @@
                 mode: e.mode,
                 hitbox: e.highVisibilityMode,
                 gameSpeed: e.gameSpeed,
+
               },
               bestScore: {
                 endless: e.endless_bestScore,
                 timetrial: e.timetrial_bestScore,
                 zigzag: e.zigzag_bestScore,
+
               },
             };
           }
@@ -393,6 +432,7 @@
                   enumerable: !0,
                   configurable: !0,
                   writable: !0,
+
                 })
               : (e[t] = s),
             e
@@ -431,11 +471,13 @@
                 character: e.currentCharacter,
                 hitbox: e.highVisibilityMode,
                 gameSpeed: e.gameSpeed,
+
               },
               bestScore: {
                 endless: e.endless_bestScore,
                 timetrial: e.timetrial_bestScore,
                 zigzag: e.zigzag_bestScore,
+
               },
               state: Q.Menu,
               flyoutActive: !1,
@@ -519,26 +561,31 @@
                 loop: 0,
                 elapsed: 0,
                 scale: 0,
+
               },
               dist: {
                 unit: 0,
                 x: 0,
                 y: 0,
+
               },
               lives: {
                 current: 3,
                 max: 3,
                 numCollected: 0,
+
               },
               boosts: {
                 current: 0,
                 max: 3,
                 numCollected: 0,
                 numUsed: 0,
+
               },
               shields: {
                 current: 0,
                 max: 3,
+
               },
               gates: 0,
               coins: 0,
@@ -551,6 +598,7 @@
                 lives: !1,
                 boosts: !1,
                 safety: !1,
+
               },
             };
           }
@@ -605,7 +653,7 @@
             zigzag_bestScore: -1,
             timetrial_bestScore: -1,
             currentCharacter: 1,
-            theme: new Date().getMonth() === 11 ? "ski" : "surf",
+            theme: new Date().getMonth() === 11 ? "ski" : "ski",
           };
         }
         !(function (e) {
@@ -665,6 +713,7 @@
                   enumerable: !0,
                   configurable: !0,
                   writable: !0,
+
                 })
               : (e[t] = s),
             e
@@ -690,8 +739,8 @@
               zigzag_bestScore: -1,
               timetrial_bestScore: -1,
               currentCharacter: 1,
-              theme: new Date().getMonth() === 11 ? "ski" : "surf",
-              mode: "endless",
+              theme: new Date().getMonth() === 11 ? "ski" : "ski",
+              mode: "ski",
               highVisibilityMode: false,
               reducedSpeedMode: false,
             };
@@ -729,6 +778,7 @@
                     ),
                     {
                       endless_bestScore: e,
+
                     }
                   )
                 )
@@ -750,6 +800,7 @@
                     ),
                     {
                       zigzag_bestScore: e,
+
                     }
                   )
                 )
@@ -774,6 +825,7 @@
                     ),
                     {
                       timetrial_bestScore: t,
+
                     }
                   )
                 )
@@ -795,6 +847,7 @@
                     ),
                     {
                       mode: e,
+
                     }
                   )
                 )
@@ -816,6 +869,7 @@
                     ),
                     {
                       theme: e,
+
                     }
                   )
                 )
@@ -837,6 +891,7 @@
                     ),
                     {
                       highVisibilityMode: e,
+
                     }
                   )
                 )
@@ -858,6 +913,7 @@
                     ),
                     {
                       reducedSpeedMode: e,
+
                     }
                   )
                 )
@@ -879,6 +935,7 @@
                     ),
                     {
                       currentCharacter: e,
+
                     }
                   )
                 )
@@ -900,6 +957,7 @@
                     ),
                     {
                       theme: e,
+
                     }
                   )
                 )
@@ -942,6 +1000,7 @@
                   enumerable: !0,
                   configurable: !0,
                   writable: !0,
+
                 })
               : (e[t] = s),
             e
@@ -1017,6 +1076,7 @@
               {
                 x: n,
                 y: o.mount[r],
+
               },
               a
             );
@@ -1033,6 +1093,7 @@
               {
                 x: r,
                 y: 0,
+
               },
               a
             ),
@@ -1044,6 +1105,7 @@
                 {
                   x: r,
                   y: n,
+
                 },
                 a
               );
@@ -1279,6 +1341,7 @@
                     y: 32,
                     w: 24,
                     h: 24,
+
                   },
                   poseData: {
                     stop: 0,
@@ -1292,6 +1355,7 @@
                     air1: 512,
                     air2: 576,
                     chase: 192,
+
                   },
                   mount: [0, 64, 128],
                   friend: 192,
@@ -1305,7 +1369,9 @@
                     player7: 640,
                     konami: 704,
                     special: 768,
+
                   },
+
                 },
                 npc: {
                   w: 64,
@@ -1318,12 +1384,15 @@
                     y: 32,
                     w: 24,
                     h: 24,
+
                   },
                   poseData: {
                     left: 1152,
                     right: 1216,
                     crash: 1280,
+
                   },
+
                 },
                 foe: {
                   w: 128,
@@ -1336,63 +1405,81 @@
                     y: 80,
                     w: 64,
                     h: 40,
+
                   },
                   poseData: {
                     chase: [
                       {
                         x: 1152,
                         y: 256,
+
                       },
                       {
                         x: 1280,
                         y: 256,
+
                       },
                       {
                         x: 1408,
                         y: 256,
+
                       },
                       {
                         x: 1536,
                         y: 256,
+
                       },
+
                     ],
                     crash: [
                       {
                         x: 1664,
                         y: 256,
+
                       },
                       {
                         x: 1792,
                         y: 256,
+
                       },
+
                     ],
                     end: [
                       {
                         x: 1152,
                         y: 384,
+
                       },
                       {
                         x: 1280,
                         y: 384,
+
                       },
                       {
                         x: 1408,
                         y: 384,
+
                       },
                       {
                         x: 1536,
                         y: 384,
+
                       },
                       {
                         x: 1664,
                         y: 384,
+
                       },
                       {
                         x: 1792,
                         y: 384,
+
                       },
+
                     ],
+
                   },
+
                 },
                 wall: {
                   w: 64,
@@ -1406,69 +1493,92 @@
                     y: 16,
                     w: 52,
                     h: 32,
+
                   },
                   poseData: {
                     sw: [
                       {
                         x: 0,
                         y: 448,
+
                       },
+
                     ],
                     s: [
                       {
                         x: 64,
                         y: 448,
+
                       },
+
                     ],
                     se: [
                       {
                         x: 128,
                         y: 448,
+
                       },
+
                     ],
                     w: [
                       {
                         x: 192,
                         y: 448,
+
                       },
+
                     ],
                     e: [
                       {
                         x: 256,
                         y: 448,
+
                       },
+
                     ],
                     n: [
                       {
                         x: 320,
                         y: 448,
+
                       },
+
                     ],
                     b: [
                       {
                         x: 384,
                         y: 448,
+
                       },
+
                     ],
                     f1: [
                       {
                         x: 448,
                         y: 448,
+
                       },
+
                     ],
                     f2: [
                       {
                         x: 512,
                         y: 448,
+
                       },
+
                     ],
                     f3: [
                       {
                         x: 576,
                         y: 448,
+
                       },
+
                     ],
+
                   },
+
                 },
                 wallDecor: {
                   w: 32,
@@ -1479,51 +1589,69 @@
                       {
                         x: 384,
                         y: 416,
+
                       },
+
                     ],
                     b: [
                       {
                         x: 416,
                         y: 416,
+
                       },
+
                     ],
                     c: [
                       {
                         x: 448,
                         y: 416,
+
                       },
+
                     ],
                     d: [
                       {
                         x: 480,
                         y: 416,
+
                       },
+
                     ],
                     e: [
                       {
                         x: 512,
                         y: 416,
+
                       },
+
                     ],
                     f: [
                       {
                         x: 544,
                         y: 416,
+
                       },
+
                     ],
                     g: [
                       {
                         x: 576,
                         y: 416,
+
                       },
+
                     ],
                     h: [
                       {
                         x: 608,
                         y: 416,
+
                       },
+
                     ],
+
                   },
+
                 },
                 snag: {
                   w: 64,
@@ -1537,123 +1665,164 @@
                     y: 36,
                     w: 32,
                     h: 20,
+
                   },
                   poseData: {
                     side1: [
                       {
                         x: 0,
                         y: 64,
+
                       },
+
                     ],
                     side2: [
                       {
                         x: 64,
                         y: 64,
+
                       },
+
                     ],
                     hurdle1: [
                       {
                         x: 128,
                         y: 64,
+
                       },
+
                     ],
                     hurdle2: [
                       {
                         x: 192,
                         y: 64,
+
                       },
+
                     ],
                     vehicle1: [
                       {
                         x: 256,
                         y: 64,
+
                       },
+
                     ],
                     vehicle2: [
                       {
                         x: 320,
                         y: 64,
+
                       },
+
                     ],
                     common1: [
                       {
                         x: 384,
                         y: 64,
+
                       },
+
                     ],
                     common2: [
                       {
                         x: 448,
                         y: 64,
+
                       },
+
                     ],
                     common3: [
                       {
                         x: 512,
                         y: 64,
+
                       },
+
                     ],
                     common4: [
                       {
                         x: 576,
                         y: 64,
+
                       },
+
                     ],
                     common5: [
                       {
                         x: 640,
                         y: 64,
+
                       },
+
                     ],
                     warn1: [
                       {
                         x: 704,
                         y: 64,
+
                       },
+
                     ],
                     isle1: [
                       {
                         x: 768,
                         y: 64,
+
                       },
+
                     ],
                     isle2: [
                       {
                         x: 832,
                         y: 64,
+
                       },
+
                     ],
                     isle3: [
                       {
                         x: 896,
                         y: 64,
+
                       },
+
                     ],
                     special1: [
                       {
                         x: 1536,
                         y: 192,
+
                       },
+
                     ],
                     special2: [
                       {
                         x: 1600,
                         y: 192,
+
                       },
+
                     ],
                     special3: [
                       {
                         x: 1664,
                         y: 192,
+
                       },
+
                     ],
                     special4: [
                       {
                         x: 1728,
                         y: 192,
+
                       },
+
                     ],
+
                   },
+
                 },
                 snagsml: {
                   w: 64,
@@ -1667,63 +1836,84 @@
                     y: 36,
                     w: 20,
                     h: 20,
+
                   },
                   poseData: {
                     debris1: [
                       {
                         x: 384,
                         y: 0,
+
                       },
+
                     ],
                     debris2: [
                       {
                         x: 448,
                         y: 0,
+
                       },
+
                     ],
                     beacon1: [
                       {
                         x: 512,
                         y: 0,
+
                       },
+
                     ],
                     point1: [
                       {
                         x: 576,
                         y: 0,
+
                       },
+
                     ],
                     rare1: [
                       {
                         x: 640,
                         y: 0,
+
                       },
+
                     ],
                     decor1: [
                       {
                         x: 704,
                         y: 0,
+
                       },
+
                     ],
                     decor2: [
                       {
                         x: 768,
                         y: 0,
+
                       },
+
                     ],
                     decor3: [
                       {
                         x: 832,
                         y: 0,
+
                       },
+
                     ],
                     decor4: [
                       {
                         x: 896,
                         y: 0,
+
                       },
+
                     ],
+
                   },
+
                 },
                 snagtall: {
                   w: 64,
@@ -1737,57 +1927,76 @@
                     y: 88,
                     w: 40,
                     h: 24,
+
                   },
                   poseData: {
                     tall1: [
                       {
                         x: 640,
                         y: 384,
+
                       },
+
                     ],
                     tall2: [
                       {
                         x: 704,
                         y: 384,
+
                       },
+
                     ],
                     tall3: [
                       {
                         x: 768,
                         y: 384,
+
                       },
+
                     ],
                     tall4: [
                       {
                         x: 832,
                         y: 384,
+
                       },
+
                     ],
                     tall5: [
                       {
                         x: 896,
                         y: 384,
+
                       },
+
                     ],
                     tall6: [
                       {
                         x: 768,
                         y: 256,
+
                       },
+
                     ],
                     tall7: [
                       {
                         x: 832,
                         y: 256,
+
                       },
+
                     ],
                     tall8: [
                       {
                         x: 896,
                         y: 256,
+
                       },
+
                     ],
+
                   },
+
                 },
                 spin: {
                   w: 32,
@@ -1801,39 +2010,52 @@
                     y: 20,
                     w: 16,
                     h: 12,
+
                   },
                   poseData: {
                     spin1: [
                       {
                         x: 384,
                         y: 384,
+
                       },
+
                     ],
                     spin2: [
                       {
                         x: 416,
                         y: 384,
+
                       },
+
                     ],
                     spin3: [
                       {
                         x: 448,
                         y: 384,
+
                       },
+
                     ],
                     spin4: [
                       {
                         x: 480,
                         y: 384,
+
                       },
+
                     ],
                     spin5: [
                       {
                         x: 512,
                         y: 384,
+
                       },
+
                     ],
+
                   },
+
                 },
                 spiral: {
                   w: 128,
@@ -1846,23 +2068,30 @@
                     y: 32,
                     w: 96,
                     h: 64,
+
                   },
                   poseData: {
                     spiral1: [
                       {
                         x: 0,
                         y: 128,
+
                       },
                       {
                         x: 128,
                         y: 128,
+
                       },
                       {
                         x: 256,
                         y: 128,
+
                       },
+
                     ],
+
                   },
+
                 },
                 block: {
                   w: 128,
@@ -1875,27 +2104,36 @@
                     y: 64,
                     w: 80,
                     h: 40,
+
                   },
                   poseData: {
                     block1: [
                       {
                         x: 384,
                         y: 256,
+
                       },
+
                     ],
                     block2: [
                       {
                         x: 512,
                         y: 256,
+
                       },
+
                     ],
                     block3: [
                       {
                         x: 640,
                         y: 256,
+
                       },
+
                     ],
+
                   },
+
                 },
                 blockbig: {
                   w: 192,
@@ -1908,27 +2146,36 @@
                     y: 64,
                     w: 144,
                     h: 40,
+
                   },
                   poseData: {
                     blockbig1: [
                       {
                         x: 384,
                         y: 128,
+
                       },
+
                     ],
                     blockbig2: [
                       {
                         x: 576,
                         y: 128,
+
                       },
+
                     ],
                     blockbig3: [
                       {
                         x: 768,
                         y: 128,
+
                       },
+
                     ],
+
                   },
+
                 },
                 marker: {
                   w: 64,
@@ -1942,27 +2189,36 @@
                     y: 36,
                     w: 24,
                     h: 20,
+
                   },
                   poseData: {
                     default: [
                       {
                         x: 1792,
                         y: 192,
+
                       },
+
                     ],
                     pass: [
                       {
                         x: 1856,
                         y: 192,
+
                       },
+
                     ],
                     fail: [
                       {
                         x: 1792,
                         y: 192,
+
                       },
+
                     ],
+
                   },
+
                 },
                 guide: {
                   w: 32,
@@ -1976,27 +2232,36 @@
                     y: 20,
                     w: 24,
                     h: 12,
+
                   },
                   poseData: {
                     default: [
                       {
                         x: 544,
                         y: 384,
+
                       },
+
                     ],
                     pass: [
                       {
                         x: 576,
                         y: 384,
+
                       },
+
                     ],
                     fail: [
                       {
                         x: 608,
                         y: 384,
+
                       },
+
                     ],
+
                   },
+
                 },
                 slow: {
                   w: 64,
@@ -2009,51 +2274,66 @@
                     y: 8,
                     w: 56,
                     h: 48,
+
                   },
                   poseData: {
                     slow1: [
                       {
                         x: 1536,
                         y: 0,
+
                       },
                       {
                         x: 1536,
                         y: 64,
+
                       },
                       {
                         x: 1536,
                         y: 128,
+
                       },
+
                     ],
                     slow2: [
                       {
                         x: 1600,
                         y: 0,
+
                       },
                       {
                         x: 1600,
                         y: 64,
+
                       },
                       {
                         x: 1600,
                         y: 128,
+
                       },
+
                     ],
                     slow3: [
                       {
                         x: 1664,
                         y: 0,
+
                       },
                       {
                         x: 1664,
                         y: 64,
+
                       },
                       {
                         x: 1664,
                         y: 128,
+
                       },
+
                     ],
+
                   },
+
                 },
                 slowbig: {
                   w: 192,
@@ -2066,23 +2346,30 @@
                     y: 8,
                     w: 176,
                     h: 48,
+
                   },
                   poseData: {
                     slowbig1: [
                       {
                         x: 1536,
                         y: 0,
+
                       },
                       {
                         x: 1536,
                         y: 64,
+
                       },
                       {
                         x: 1536,
                         y: 128,
+
                       },
+
                     ],
+
                   },
+
                 },
                 bump: {
                   w: 64,
@@ -2095,51 +2382,66 @@
                     y: 8,
                     w: 56,
                     h: 48,
+
                   },
                   poseData: {
                     bump1: [
                       {
                         x: 1728,
                         y: 0,
+
                       },
                       {
                         x: 1728,
                         y: 64,
+
                       },
                       {
                         x: 1728,
                         y: 128,
+
                       },
+
                     ],
                     bump2: [
                       {
                         x: 1792,
                         y: 0,
+
                       },
                       {
                         x: 1792,
                         y: 64,
+
                       },
                       {
                         x: 1792,
                         y: 128,
+
                       },
+
                     ],
                     bump3: [
                       {
                         x: 1856,
                         y: 0,
+
                       },
                       {
                         x: 1856,
                         y: 64,
+
                       },
                       {
                         x: 1856,
                         y: 128,
+
                       },
+
                     ],
+
                   },
+
                 },
                 bumpbig: {
                   w: 192,
@@ -2152,23 +2454,30 @@
                     y: 8,
                     w: 176,
                     h: 48,
+
                   },
                   poseData: {
                     bumpbig1: [
                       {
                         x: 1728,
                         y: 0,
+
                       },
                       {
                         x: 1728,
                         y: 64,
+
                       },
                       {
                         x: 1728,
                         y: 128,
+
                       },
+
                     ],
+
                   },
+
                 },
                 ramp: {
                   w: 64,
@@ -2182,27 +2491,35 @@
                     y: 8,
                     w: 48,
                     h: 24,
+
                   },
                   poseData: {
                     ramp: [
                       {
                         x: 960,
                         y: 0,
+
                       },
                       {
                         x: 960,
                         y: 64,
+
                       },
                       {
                         x: 960,
                         y: 128,
+
                       },
                       {
                         x: 960,
                         y: 192,
+
                       },
+
                     ],
+
                   },
+
                 },
                 boost: {
                   w: 64,
@@ -2216,27 +2533,35 @@
                     y: 0,
                     w: 64,
                     h: 64,
+
                   },
                   poseData: {
                     boost: [
                       {
                         x: 1024,
                         y: 0,
+
                       },
                       {
                         x: 1024,
                         y: 64,
+
                       },
                       {
                         x: 1024,
                         y: 128,
+
                       },
                       {
                         x: 1024,
                         y: 192,
+
                       },
+
                     ],
+
                   },
+
                 },
                 life: {
                   w: 64,
@@ -2250,27 +2575,35 @@
                     y: 0,
                     w: 64,
                     h: 64,
+
                   },
                   poseData: {
                     life: [
                       {
                         x: 1088,
                         y: 0,
+
                       },
                       {
                         x: 1088,
                         y: 64,
+
                       },
                       {
                         x: 1088,
                         y: 128,
+
                       },
                       {
                         x: 1088,
                         y: 192,
+
                       },
+
                     ],
+
                   },
+
                 },
                 coin: {
                   w: 64,
@@ -2284,27 +2617,35 @@
                     y: 0,
                     w: 64,
                     h: 64,
+
                   },
                   poseData: {
                     coin: [
                       {
                         x: 960,
                         y: 256,
+
                       },
                       {
                         x: 960,
                         y: 320,
+
                       },
                       {
                         x: 960,
                         y: 384,
+
                       },
                       {
                         x: 960,
                         y: 448,
+
                       },
+
                     ],
+
                   },
+
                 },
                 friend: {
                   w: 64,
@@ -2318,33 +2659,43 @@
                     y: -32,
                     w: 128,
                     h: 128,
+
                   },
                   poseData: {
                     friend: [
                       {
                         x: 1024,
                         y: 256,
+
                       },
                       {
                         x: 1024,
                         y: 320,
+
                       },
                       {
                         x: 1024,
                         y: 384,
+
                       },
                       {
                         x: 1024,
                         y: 448,
+
                       },
+
                     ],
                     crash: [
                       {
                         x: 1024,
                         y: 256,
+
                       },
+
                     ],
+
                   },
+
                 },
                 lure: {
                   w: 64,
@@ -2358,27 +2709,35 @@
                     y: -64,
                     w: 192,
                     h: 192,
+
                   },
                   poseData: {
                     lure: [
                       {
                         x: 1088,
                         y: 256,
+
                       },
                       {
                         x: 1088,
                         y: 320,
+
                       },
                       {
                         x: 1088,
                         y: 384,
+
                       },
                       {
                         x: 1088,
                         y: 448,
+
                       },
+
                     ],
+
                   },
+
                 },
                 ambient: {
                   w: 64,
@@ -2391,63 +2750,81 @@
                     y: 0,
                     w: 64,
                     h: 64,
+
                   },
                   poseData: {
                     ambient1: [
                       {
                         x: 1344,
                         y: 0,
+
                       },
                       {
                         x: 1344,
                         y: 64,
+
                       },
                       {
                         x: 1344,
                         y: 128,
+
                       },
                       {
                         x: 1344,
                         y: 192,
+
                       },
+
                     ],
                     ambient2: [
                       {
                         x: 1408,
                         y: 0,
+
                       },
                       {
                         x: 1408,
                         y: 64,
+
                       },
                       {
                         x: 1408,
                         y: 128,
+
                       },
                       {
                         x: 1408,
                         y: 192,
+
                       },
+
                     ],
                     ambient3: [
                       {
                         x: 1472,
                         y: 0,
+
                       },
                       {
                         x: 1472,
                         y: 64,
+
                       },
                       {
                         x: 1472,
                         y: 128,
+
                       },
                       {
                         x: 1472,
                         y: 192,
+
                       },
+
                     ],
+
                   },
+
                 },
                 finish: {
                   w: 384,
@@ -2460,15 +2837,20 @@
                     y: 128,
                     w: 384,
                     h: 192,
+
                   },
                   poseData: {
                     default: [
                       {
                         x: 0,
                         y: 256,
+
                       },
+
                     ],
+
                   },
+
                 },
                 checkpoint: {
                   w: 384,
@@ -2481,15 +2863,20 @@
                     y: 128,
                     w: 256,
                     h: 64,
+
                   },
                   poseData: {
                     default: [
                       {
                         x: 0,
                         y: 256,
+
                       },
+
                     ],
+
                   },
+
                 },
                 gate: {
                   w: 192,
@@ -2501,7 +2888,9 @@
                     y: 0,
                     w: 192,
                     h: 64,
+
                   },
+
                 },
                 swap: {
                   w: 256,
@@ -2513,7 +2902,9 @@
                     y: 0,
                     w: 256,
                     h: 256,
+
                   },
+
                 },
                 fx: {
                   w: 96,
@@ -2524,17 +2915,23 @@
                       {
                         x: 96,
                         y: 0,
+
                       },
                       {
                         x: 192,
                         y: 0,
+
                       },
                       {
                         x: 288,
                         y: 0,
+
                       },
+
                     ],
+
                   },
+
                 },
               }),
               ce(this, "boundary", {
@@ -2599,6 +2996,7 @@
                   enumerable: !0,
                   configurable: !0,
                   writable: !0,
+
                 })
               : (e[t] = s),
             e
@@ -2943,26 +3341,32 @@
               leftArrow: {
                 path: "M12.2676 15.793C11.9677 16.0787 11.493 16.0672 11.2073 15.7672L6.20597 10.5168C5.93004 10.2271 5.93004 9.77187 6.20597 9.4822L11.2073 4.23173C11.493 3.93181 11.9677 3.92028 12.2676 4.20597C12.5676 4.49166 12.5791 4.96639 12.2934 5.26631L7.78483 9.99949L12.2934 14.7327C12.5791 15.0326 12.5676 15.5073 12.2676 15.793Z",
                 viewbox: "0 0 20 20",
+
               },
               rightArrow: {
                 path: "M7.73271 4.20694C8.03263 3.92125 8.50737 3.93279 8.79306 4.23271L13.7944 9.48318C14.0703 9.77285 14.0703 10.2281 13.7944 10.5178L8.79306 15.7682C8.50737 16.0681 8.03263 16.0797 7.73271 15.794C7.43279 15.5083 7.42125 15.0336 7.70694 14.7336L12.2155 10.0005L7.70694 5.26729C7.42125 4.96737 7.43279 4.49264 7.73271 4.20694Z",
                 viewbox: "0 0 20 20",
+
               },
               star: {
                 path: "M9.10433 2.89874C9.47114 2.15549 10.531 2.1555 10.8978 2.89874L12.8282 6.81024L17.1448 7.43748C17.9651 7.55666 18.2926 8.56464 17.699 9.14317L14.5755 12.1878L15.3129 16.487C15.453 17.3039 14.5956 17.9269 13.8619 17.5412L10.0011 15.5114L6.14018 17.5412C5.40655 17.9269 4.54913 17.3039 4.68924 16.487L5.4266 12.1878L2.30308 9.14317C1.70956 8.56463 2.03708 7.55666 2.8573 7.43748L7.17389 6.81024L9.10433 2.89874Z",
                 viewbox: "0 0 20 20",
+
               },
               link: {
                 path: "M14 6C16.2091 6 18 7.79086 18 10C18 12.1422 16.316 13.8911 14.1996 13.9951L14 14H12C11.5858 14 11.25 13.6642 11.25 13.25C11.25 12.8703 11.5322 12.5565 11.8982 12.5068L12 12.5H14C15.3807 12.5 16.5 11.3807 16.5 10C16.5 8.67452 15.4685 7.58996 14.1644 7.50532L14 7.5H12C11.5858 7.5 11.25 7.16421 11.25 6.75C11.25 6.3703 11.5322 6.05651 11.8982 6.00685L12 6H14ZM8 6C8.41421 6 8.75 6.33579 8.75 6.75C8.75 7.1297 8.46785 7.44349 8.10177 7.49315L8 7.5H6C4.61929 7.5 3.5 8.61929 3.5 10C3.5 11.3255 4.53154 12.41 5.83562 12.4947L6 12.5H8C8.41421 12.5 8.75 12.8358 8.75 13.25C8.75 13.6297 8.46785 13.9435 8.10177 13.9932L8 14H6C3.79086 14 2 12.2091 2 10C2 7.8578 3.68397 6.10892 5.80036 6.0049L6 6H8ZM6.25 9.25H13.75C14.1642 9.25 14.5 9.58579 14.5 10C14.5 10.3797 14.2178 10.6935 13.8518 10.7432L13.75 10.75H6.25C5.83579 10.75 5.5 10.4142 5.5 10C5.5 9.6203 5.78215 9.30651 6.14823 9.25685L6.25 9.25H13.75H6.25Z",
                 viewbox: "0 0 20 20",
+
               },
               xboxAction: {
                 path: "M11.5,11.5H9.7L9.2,9.9H6.7l-0.5,1.6H4.5l2.5-7H9L11.5,11.5z M8.9,8.7L8.1,6.4C8.1,6.2,8,6,8,5.7h0C8,6,7.9,6.2,7.8,6.4 L7.1,8.7H8.9z M8,16c-4.4,0-8-3.6-8-8s3.6-8,8-8s8,3.6,8,8S12.4,16,8,16z M8,1C4.1,1,1,4.1,1,8s3.1,7,7,7s7-3.1,7-7S11.9,1,8,1z",
                 viewbox: "0 0 16 16",
+
               },
               psAction: {
                 path: "M8,0C3.6,0,0,3.6,0,8s3.6,8,8,8s8-3.6,8-8S12.4,0,8,0z M8,15c-3.9,0-7-3.1-7-7s3.1-7,7-7s7,3.1,7,7S11.9,15,8,15z M12,5 l-3,3l3,3L11,12l-3-3l-3,3L4,11l3-3L4,5L5,4l3,3l3-3L12,5z",
                 viewbox: "0 0 16 16",
+
               },
             };
           }
@@ -2993,6 +3397,7 @@
                   enumerable: !0,
                   configurable: !0,
                   writable: !0,
+
                 })
               : (e[t] = s),
             e
@@ -3024,6 +3429,7 @@
                 f2: ["f2"],
                 f3: ["f3"],
                 f: ["f1", "f2", "f3"],
+
               },
               snag: {
                 b1: ["side1", "side2"],
@@ -3033,6 +3439,7 @@
                 b5: ["warn1"],
                 b6: ["isle1", "isle2", "isle3"],
                 b7: ["special1", "special2", "special3", "special4"],
+
               },
               snagsml: {
                 c1: ["debris1", "debris2"],
@@ -3040,74 +3447,97 @@
                 c3: ["point1"],
                 c4: ["rare1"],
                 c5: ["decor1", "decor2", "decor3", "decor4"],
+
               },
               snagtall: {
                 t1: ["tall1", "tall2"],
                 t2: ["tall3"],
                 t3: ["tall4", "tall5", "tall6", "tall7", "tall8"],
+
               },
               spin: {
                 o: ["spin1", "spin2", "spin3", "spin4", "spin5"],
+
               },
               ramp: {
                 i1: ["ramp"],
+
               },
               lure: {
                 i2: ["lure"],
+
               },
               boost: {
                 i3: ["boost"],
+
               },
               life: {
                 i4: ["life"],
+
               },
               coin: {
                 i5: ["coin"],
+
               },
               friend: {
                 i6: ["friend"],
+
               },
               ambient: {
                 a: ["ambient1", "ambient2", "ambient3"],
+
               },
               slow: {
                 s1: ["slow1", "slow2", "slow3"],
+
               },
               bump: {
                 s2: ["bump1", "bump2", "bump3"],
+
               },
               slowbig: {
                 s3: ["slowbig1"],
+
               },
               bumpbig: {
                 s4: ["bumpbig1"],
+
               },
               spiral: {
                 s5: ["spiral1"],
+
               },
               block: {
                 m1: ["block1", "block2", "block3"],
+
               },
               blockbig: {
                 m2: ["blockbig1", "blockbig2", "blockbig3"],
+
               },
               marker: {
                 z1: ["default"],
+
               },
               guide: {
                 z2: ["default"],
+
               },
               gate: {
                 z3: [""],
+
               },
               swap: {
                 z4: [""],
+
               },
               finish: {
                 f1: ["default"],
+
               },
               checkpoint: {
                 p1: ["default"],
+
               },
             }),
               (this.spawnSingle = {
@@ -3126,6 +3556,7 @@
                   "isle3",
                   "vehicle1",
                   "vehicle2",
+
                 ],
                 ambient: ["ambient1", "ambient2", "ambient3"],
                 slow: ["slow1", "slow2", "slow3"],
@@ -3141,6 +3572,7 @@
                   "decor2",
                   "decor3",
                   "decor4",
+
                 ],
                 snagtall: [
                   "tall3",
@@ -3149,6 +3581,7 @@
                   "tall6",
                   "tall7",
                   "tall8",
+
                 ],
                 spin: ["spin1", "spin2", "spin3", "spin4", "spin5"],
               });
@@ -3162,6 +3595,7 @@
                     [-14, 14, "t1"],
                     [24, 6, "t1"],
                     [-32, 6, "t1"],
+
                   ],
                   bump: [
                     [31, 11],
@@ -3176,10 +3610,12 @@
                     [-42, 10],
                     [-24, 18],
                     [-33, 12],
+
                   ],
                   slow: [
                     [14, 10],
                     [-14, 10],
+
                   ],
                   snagsml: [
                     [-12, 27, "c3"],
@@ -3188,10 +3624,12 @@
                     [-8, 20, "c3"],
                     [-9, 11, "c3"],
                     [12, 27, "c3"],
+
                   ],
                   boost: [
                     [-4, 2],
                     [4, 2],
+
                   ],
                   slowbig: [
                     [22, 26],
@@ -3200,6 +3638,7 @@
                     [-36, 16],
                     [26, 2],
                     [-26, 3],
+
                   ],
                   wall: [
                     [36, 8, "se"],
@@ -3223,6 +3662,7 @@
                     [-36, 4, "n"],
                     [36, 4, "n"],
                     [-28, 8, "f"],
+
                   ],
                   snag: [
                     [15, 11, "b2"],
@@ -3239,7 +3679,9 @@
                     [-39, 18, "b4"],
                     [31, 14, "b4"],
                     [18, 21, "b4"],
+
                   ],
+
                 },
                 start2: {
                   block: [[-28, 13]],
@@ -3254,6 +3696,7 @@
                     [38, 9],
                     [37, 14],
                     [-12, 19],
+
                   ],
                   wall: [
                     [34, 12, "se"],
@@ -3273,14 +3716,17 @@
                     [-34, 16, "n"],
                     [30, 8, "e"],
                     [26, 8, "f"],
+
                   ],
                   boost: [
                     [4, 2],
                     [-4, 2],
+
                   ],
                   blockbig: [
                     [-19, 8],
                     [22, 11],
+
                   ],
                   snagtall: [
                     [-42, 8, "t2"],
@@ -3289,6 +3735,7 @@
                     [-31, 6, "t3"],
                     [-27, 8, "t3"],
                     [28, 13, "t3"],
+
                   ],
                   slowbig: [
                     [39, 28],
@@ -3298,6 +3745,7 @@
                     [-36, 28],
                     [-20, 31],
                     [22, 32],
+
                   ],
                   bumpbig: [[-24, 24]],
                   snag: [
@@ -3316,6 +3764,7 @@
                     [-18, 4, "b6"],
                     [37, 17, "b4"],
                     [-39, 8, "b4"],
+
                   ],
                   slow: [
                     [-47, 15],
@@ -3323,6 +3772,7 @@
                     [42, 6],
                     [-40, 5],
                     [41, 22],
+
                   ],
                   snagsml: [
                     [33, 22, "c5"],
@@ -3337,7 +3787,9 @@
                     [12, 27, "c3"],
                     [26, 23, "c4"],
                     [25, 18, "c5"],
+
                   ],
+
                 },
                 start3: {
                   snagtall: [
@@ -3347,6 +3799,7 @@
                     [-17, 20, "t3"],
                     [21, 14, "t3"],
                     [30, 17, "t3"],
+
                   ],
                   slowbig: [
                     [30, 5],
@@ -3354,6 +3807,7 @@
                     [22, 25],
                     [-43, 25],
                     [-28, 20],
+
                   ],
                   bump: [
                     [13, 21],
@@ -3363,6 +3817,7 @@
                     [-41, 20],
                     [-30, 7],
                     [43, 16],
+
                   ],
                   snag: [
                     [17, 19, "b6"],
@@ -3385,14 +3840,17 @@
                     [-40, 7, "b6"],
                     [-25, 7, "b4"],
                     [27, 17, "b4"],
+
                   ],
                   bumpbig: [
                     [-18, 12],
                     [31, 15],
+
                   ],
                   blockbig: [
                     [-15, 16],
                     [23, 9],
+
                   ],
                   snagsml: [
                     [12, 27, "c3"],
@@ -3401,6 +3859,7 @@
                     [-8, 20, "c3"],
                     [8, 20, "c3"],
                     [-12, 27, "c3"],
+
                   ],
                   slow: [
                     [47, 14],
@@ -3408,18 +3867,23 @@
                     [-30, 15],
                     [23, 20],
                     [-22, 25],
+
                   ],
                   wall: [[38, 17, "b"]],
                   block: [
                     [14, 15],
                     [40, 11],
+
                   ],
                   lure: [[-34, 11]],
                   boost: [
                     [-4, 2],
                     [4, 2],
+
                   ],
+
                 },
+
               },
               endlessSwap: {
                 swap: {
@@ -3428,10 +3892,12 @@
                     [2, 22],
                     [-6, 26],
                     [6, 30],
+
                   ],
                   block: [
                     [-32, 24],
                     [25, 38],
+
                   ],
                   blockbig: [[-25, 13]],
                   lure: [
@@ -3443,6 +3909,7 @@
                     [16, 32, ["lure"]],
                     [10, 36, ["lure"]],
                     [-16, 33, ["lure"]],
+
                   ],
                   slowbig: [
                     [30, 19],
@@ -3453,6 +3920,7 @@
                     [20, 53],
                     [13, 7],
                     [-3, 51],
+
                   ],
                   bump: [
                     [-37, 37],
@@ -3465,6 +3933,7 @@
                     [35, 25],
                     [22, 47],
                     [10, 49],
+
                   ],
                   snag: [
                     [-33, 19, "b4"],
@@ -3503,6 +3972,7 @@
                     [5, 48, "b4"],
                     [33, 30, "b6"],
                     [19, 44, "b6"],
+
                   ],
                   wall: [[-33, 36, "b"]],
                   snagtall: [
@@ -3513,6 +3983,7 @@
                     [31, 26, "t3"],
                     [25, 19, "t2"],
                     [-20, 35, "t2"],
+
                   ],
                   slow: [
                     [6, 17],
@@ -3523,19 +3994,24 @@
                     [-10, 32],
                     [-8, 20],
                     [-38, 19],
+
                   ],
                   bumpbig: [
                     [7, 46],
                     [-1, 8],
                     [-29, 29],
+
                   ],
                   snagsml: [
                     [-29, 34, "c1"],
                     [-35, 32, "c1"],
                     [29, 21, "c1"],
                     [25, 23, "c1"],
+
                   ],
+
                 },
+
               },
               endlessLives: {
                 life1: {
@@ -3543,12 +4019,14 @@
                     [10, 12],
                     [-5, 14],
                     [0, 1],
+
                   ],
                   snag: [
                     [17, 8, "b6"],
                     [-1, 3, "b6"],
                     [-16, 13, "b6"],
                     [-11, 15, "b6"],
+
                   ],
                   slow: [
                     [-20, 8],
@@ -3556,6 +4034,7 @@
                     [-3, 19],
                     [7, 17],
                     [12, 5],
+
                   ],
                   blockbig: [[-11, 9]],
                   life: [[1, 12]],
@@ -3564,9 +4043,11 @@
                     [-10, 4, "t3"],
                     [-3, 0, "t3"],
                     [14, 9, "t3"],
+
                   ],
                   slowbig: [[-19, 18]],
                   block: [[9, 7]],
+
                 },
                 life2: {
                   snagtall: [
@@ -3574,6 +4055,7 @@
                     [-15, 6, "t3"],
                     [-9, 15, "t3"],
                     [10, 9, "t3"],
+
                   ],
                   bump: [[-11, 23]],
                   snagsml: [[-8, 20, "c1"]],
@@ -3581,11 +4063,13 @@
                     [7, 23],
                     [13, 8],
                     [-21, 20],
+
                   ],
                   slow: [
                     [18, 15],
                     [-22, 8],
                     [-12, 5],
+
                   ],
                   spin: [[-4, 20]],
                   wall: [[-12, 20, "b"]],
@@ -3593,13 +4077,17 @@
                   blockbig: [
                     [9, 15],
                     [-14, 11],
+
                   ],
                   snag: [
                     [-20, 15, "b6"],
                     [3, 2, "b6"],
+
                   ],
                   block: [[-1, 5]],
+
                 },
+
               },
               endlessFriends: {
                 friend1: {
@@ -3609,37 +4097,44 @@
                     [-8, 14, "b4"],
                     [6, 12, "b4"],
                     [15, 13, "b2"],
+
                   ],
                   slow: [
                     [-18, 3],
                     [7, 19],
+
                   ],
                   bump: [
                     [-10, 4],
                     [-11, 16],
                     [10, 13],
                     [-15, 8],
+
                   ],
                   spin: [[4, 9]],
                   snagtall: [
                     [6, 5, "t3"],
                     [-20, 10, "t1"],
+
                   ],
                   wall: [
                     [-12, 12, "se"],
                     [-16, 12, "f"],
                     [-8, 8, "se"],
                     [-12, 8, "w"],
+
                   ],
                   blockbig: [[14, 8]],
                   bumpbig: [[11, 4]],
                   snagsml: [[-18, 15, "c1"]],
                   friend: [[-1, 12]],
+
                 },
                 friend2: {
                   slow: [
                     [-11, 18],
                     [13, 2],
+
                   ],
                   snag: [
                     [-1, 1, "b4"],
@@ -3650,25 +4145,31 @@
                     [-10, 11, "b6"],
                     [-7, 13, "b4"],
                     [17, 14, "b4"],
+
                   ],
                   slowbig: [
                     [-18, 3],
                     [12, 19],
+
                   ],
                   bump: [
                     [-16, 12],
                     [15, 11],
                     [-7, 8],
                     [2, 2],
+
                   ],
                   snagtall: [
                     [11, 9, "t2"],
                     [-20, 8, "t3"],
+
                   ],
                   snagsml: [[8, 12, "c1"]],
                   block: [[-13, 7]],
                   friend: [[1, 9]],
+
                 },
+
               },
               endlessBoosts: {
                 boost1: {
@@ -3679,10 +4180,12 @@
                   blockbig: [
                     [9, 14],
                     [-7, 4],
+
                   ],
                   snagsml: [
                     [-20, 14, "c1"],
                     [-14, 20, "c1"],
+
                   ],
                   bump: [
                     [5, 22],
@@ -3691,6 +4194,7 @@
                     [2, 3],
                     [-15, 5],
                     [16, 19],
+
                   ],
                   snag: [
                     [-13, 14, "b4"],
@@ -3698,12 +4202,15 @@
                     [-13, 1, "b6"],
                     [-9, 8, "b6"],
                     [4, 18, "b6"],
+
                   ],
                   snagtall: [
                     [-16, 15, "t2"],
                     [17, 14, "t3"],
                     [8, 18, "t3"],
+
                   ],
+
                 },
                 boost2: {
                   boost: [[-9, 16]],
@@ -3716,6 +4223,7 @@
                     [17, 12],
                     [-15, 6],
                     [15, 4],
+
                   ],
                   wall: [
                     [5, 22, "se"],
@@ -3728,6 +4236,7 @@
                     [-3, 6, "se"],
                     [-11, 6, "sw"],
                     [13, 8, "e"],
+
                   ],
                   snag: [
                     [11, 3, "b1"],
@@ -3735,7 +4244,9 @@
                     [-6, 8, "b4"],
                     [-14, 14, "b4"],
                     [-6, 24, "b2"],
+
                   ],
+
                 },
                 boost3: {
                   slowbig: [[-10, 3]],
@@ -3750,6 +4261,7 @@
                     [-8, 22, "b4"],
                     [7, 19, "b4"],
                     [-17, 7, "b4"],
+
                   ],
                   bump: [
                     [-12, 22],
@@ -3760,16 +4272,19 @@
                     [-10, 14],
                     [14, 13],
                     [12, 3],
+
                   ],
                   slow: [
                     [16, 8],
                     [-2, 23],
                     [-3, 9],
+
                   ],
                   block: [[10, 8]],
                   boost: [[4, 14]],
                   bumpbig: [[-10, 18]],
                   wall: [[-4, 16, "b"]],
+
                 },
                 boost4: {
                   bumpbig: [[7, 19]],
@@ -3777,6 +4292,7 @@
                   boost: [
                     [4, 10],
                     [-4, 10],
+
                   ],
                   snagtall: [[7, 14, "t3"]],
                   snag: [
@@ -3789,23 +4305,28 @@
                     [4, 4, "b4"],
                     [9, 12, "b4"],
                     [-6, 6, "b6"],
+
                   ],
                   bump: [
                     [12, 8],
                     [-12, 18],
                     [-8, 20],
                     [8, 23],
+
                   ],
                   slow: [
                     [-15, 15],
                     [14, 15],
                     [16, 10],
                     [-14, 9],
+
                   ],
                   spin: [
                     [-7, 2],
                     [10, 3],
+
                   ],
+
                 },
                 boost5: {
                   boost: [[-1, 12]],
@@ -3817,6 +4338,7 @@
                     [-6, 8],
                     [-14, 6],
                     [-2, 4],
+
                   ],
                   wall: [
                     [13, 12, "f"],
@@ -3831,6 +4353,7 @@
                     [-2, 2, "se"],
                     [9, 12, "sw"],
                     [-10, 2, "w"],
+
                   ],
                   snag: [
                     [-16, 10, "b4"],
@@ -3838,17 +4361,21 @@
                     [-6, 4, "b2"],
                     [5, 10, "b4"],
                     [-1, 23, "b4"],
+
                   ],
                   spin: [
                     [9, 17],
                     [7, 7],
                     [15, 5],
                     [1, 2],
+
                   ],
                   snagtall: [
                     [17, 10, "t1"],
                     [-6, 0, "t1"],
+
                   ],
+
                 },
                 boost6: {
                   snagtall: [[-6, 10, "t1"]],
@@ -3857,6 +4384,7 @@
                     [-4, 2],
                     [6, 16],
                     [-2, 18],
+
                   ],
                   boost: [[2, 14]],
                   snag: [
@@ -3864,6 +4392,7 @@
                     [-12, 4, "b4"],
                     [14, 12, "b1"],
                     [-4, 7, "b4"],
+
                   ],
                   wall: [
                     [14, 4, "n"],
@@ -3876,6 +4405,7 @@
                     [6, 12, "b"],
                     [-14, 18, "b"],
                     [10, 8, "f"],
+
                   ],
                   bump: [
                     [-16, 2],
@@ -3883,13 +4413,16 @@
                     [10, 14],
                     [-12, 22],
                     [-14, 13],
+
                   ],
+
                 },
                 boost7: {
                   boost: [[4, 14]],
                   snagtall: [
                     [-6, 4, "t3"],
                     [11, 1, "t3"],
+
                   ],
                   snag: [
                     [10, 7, "b4"],
@@ -3898,17 +4431,21 @@
                     [-8, 14, "b4"],
                     [-4, 12, "b6"],
                     [6, 4, "b1"],
+
                   ],
                   bump: [
                     [-3, 9],
                     [-8, 12],
                     [5, 7],
+
                   ],
+
                 },
                 boost8: {
                   spin: [
                     [0, 3],
                     [7, 13],
+
                   ],
                   snag: [
                     [10, 4, "b4"],
@@ -3916,13 +4453,16 @@
                     [-10, 6, "b4"],
                     [4, 14, "b4"],
                     [-10, 2, "b2"],
+
                   ],
                   bump: [
                     [-4, 8],
                     [6, 8],
                     [-8, 12],
+
                   ],
                   boost: [[-2, 14]],
+
                 },
                 boost9: {
                   snagtall: [[10, 0, "t1"]],
@@ -3931,11 +4471,13 @@
                     [-13, 6],
                     [-4, 14],
                     [4, 6],
+
                   ],
                   snag: [
                     [12, 12, "b3"],
                     [6, 12, "b4"],
                     [-8, 4, "b4"],
+
                   ],
                   wall: [
                     [-10, 12, "sw"],
@@ -3944,8 +4486,10 @@
                     [-10, 8, "n"],
                     [2, 2, "sw"],
                     [6, 2, "f"],
+
                   ],
                   snagsml: [[-8, 15, "c1"]],
+
                 },
                 boost10: {
                   bumpbig: [[10, 6]],
@@ -3956,19 +4500,23 @@
                     [-4, 12, "b4"],
                     [-10, 12, "b4"],
                     [8, 13, "b4"],
+
                   ],
                   bump: [
                     [8, 10],
                     [11, 1],
                     [4, 3],
+
                   ],
                   spiral: [[-7, 4]],
                   boost: [[0, 9]],
+
                 },
                 boost11: {
                   snag: [
                     [-14, 8, "b6"],
                     [-12, 6, "b4"],
+
                   ],
                   snagtall: [[13, 3, "t3"]],
                   boost: [[2, 8]],
@@ -3979,6 +4527,7 @@
                     [-8, 6, "n"],
                     [8, 2, "e"],
                     [4, 2, "sw"],
+
                   ],
                   spin: [[-5, 1]],
                   snagsml: [[-5, 13, "c1"]],
@@ -3986,8 +4535,11 @@
                     [11, 8],
                     [-4, 6],
                     [-12, 11],
+
                   ],
+
                 },
+
               },
               endlessRamps: {
                 ramp1: {
@@ -4002,6 +4554,7 @@
                     [2, 17, "sw"],
                     [10, 13, "f"],
                     [6, 13, "w"],
+
                   ],
                   snag: [
                     [12, 8, "b4"],
@@ -4009,6 +4562,7 @@
                     [3, 19, "b1"],
                     [-16, 13, "b4"],
                     [-3, 4, "b1"],
+
                   ],
                   snagtall: [[14, 11, "t1"]],
                   bump: [
@@ -4016,36 +4570,44 @@
                     [16, 5],
                     [11, 17],
                     [-17, 7],
+
                   ],
                   spin: [
                     [-15, 5],
                     [14, 3],
+
                   ],
                   ramp: [
                     [8, 9],
                     [-12, 13],
                     [-2, 16],
+
                   ],
+
                 },
                 ramp2: {
                   snagtall: [
                     [11, 10, "t3"],
                     [-11, 6, "t3"],
+
                   ],
                   spin: [
                     [-2, 2],
                     [2, 10],
+
                   ],
                   slow: [
                     [3, 2],
                     [16, 13],
                     [-4, 13],
                     [6, 17],
+
                   ],
                   block: [[-6, 4]],
                   slowbig: [
                     [-17, 8],
                     [-11, 18],
+
                   ],
                   blockbig: [[9, 7]],
                   snag: [
@@ -4053,33 +4615,40 @@
                     [8, 13, "b4"],
                     [-13, 3, "b6"],
                     [9, 2, "b6"],
+
                   ],
                   bump: [
                     [-10, 13],
                     [10, 16],
+
                   ],
                   ramp: [[0, 17]],
+
                 },
                 ramp3: {
                   slow: [
                     [14, 6],
                     [-18, 8],
                     [17, 16],
+
                   ],
                   snag: [
                     [11, 8, "b3"],
                     [13, 11, "b1"],
                     [16, 9, "b6"],
+
                   ],
                   snagtall: [
                     [-15, 9, "t3"],
                     [0, 21, "t3"],
                     [-4, 10, "t1"],
+
                   ],
                   bump: [
                     [0, 12],
                     [-12, 13],
                     [-5, 20],
+
                   ],
                   wall: [
                     [-8, 16, "sw"],
@@ -4089,16 +4658,20 @@
                     [8, 16, "f"],
                     [-8, 12, "w"],
                     [12, 16, "se"],
+
                   ],
                   slowbig: [
                     [0, 2],
                     [-12, 19],
+
                   ],
                   blockbig: [
                     [-8, 6],
                     [8, 19],
+
                   ],
                   ramp: [[6, 12]],
+
                 },
                 ramp4: {
                   slow: [
@@ -4108,6 +4681,7 @@
                     [-12, 4],
                     [14, 2],
                     [-7, 20],
+
                   ],
                   snag: [
                     [-9, 7, "b3"],
@@ -4122,6 +4696,7 @@
                     [-6, 8, "b1"],
                     [11, 11, "b6"],
                     [8, 14, "b2"],
+
                   ],
                   bump: [
                     [5, 17],
@@ -4129,21 +4704,25 @@
                     [-12, 14],
                     [8, 12],
                     [-10, 10],
+
                   ],
                   snagtall: [[10, 5, "t3"]],
                   ramp: [[0, 14]],
+
                 },
                 ramp5: {
                   snagtall: [[-4, 11, "t3"]],
                   ramp: [
                     [-8, 4],
                     [8, 2],
+
                   ],
                   bump: [
                     [9, 6],
                     [-5, 5],
                     [-11, 6],
                     [5, 11],
+
                   ],
                   slowbig: [[-1, 9]],
                   snag: [
@@ -4151,22 +4730,27 @@
                     [-10, 8, "b4"],
                     [6, 5, "b4"],
                     [-1, 4, "b6"],
+
                   ],
+
                 },
                 ramp6: {
                   bump: [
                     [-8, 6],
                     [-13, 14],
                     [9, 14],
+
                   ],
                   snagtall: [
                     [-13, 9, "t3"],
                     [5, 13, "t3"],
                     [-9, 12, "t2"],
+
                   ],
                   slow: [
                     [8, 8],
                     [-8, 3],
+
                   ],
                   blockbig: [[-2, 9]],
                   snag: [
@@ -4174,9 +4758,11 @@
                     [6, 11, "b4"],
                     [3, 5, "b6"],
                     [-11, 8, "b4"],
+
                   ],
                   ramp: [[-2, 3]],
                   slowbig: [[-4, 18]],
+
                 },
                 ramp7: {
                   snag: [
@@ -4185,29 +4771,35 @@
                     [1, 1, "b6"],
                     [0, 11, "b1"],
                     [-3, 2, "b4"],
+
                   ],
                   wall: [
                     [8, 12, "w"],
                     [-8, 14, "se"],
                     [8, 16, "b"],
                     [12, 12, "se"],
+
                   ],
                   snagsml: [[14, 14, "c1"]],
                   ramp: [
                     [4, 13],
                     [-4, 13],
+
                   ],
                   slow: [
                     [14, 4],
                     [-10, 4],
+
                   ],
                   bump: [
                     [-14, 11],
                     [-9, 17],
                     [1, 15],
                     [10, 18],
+
                   ],
                   snagtall: [[-12, 12, "t1"]],
+
                 },
                 ramp8: {
                   slowbig: [[0, 19]],
@@ -4216,6 +4808,7 @@
                   slow: [
                     [-7, 12],
                     [5, 4],
+
                   ],
                   ramp: [[-1, 13]],
                   snag: [
@@ -4225,13 +4818,17 @@
                     [10, 9, "b4"],
                     [8, 6, "b2"],
                     [-10, 1, "b2"],
+
                   ],
                   bump: [
                     [10, 4],
                     [-4, 4],
                     [-11, 7],
+
                   ],
+
                 },
+
               },
               endlessLures: {
                 lure1: {
@@ -4239,21 +4836,26 @@
                     [10, 13],
                     [-17, 9],
                     [0, 7],
+
                   ],
                   snag: [
                     [-1, 3, "b4"],
                     [-3, 0, "b4"],
                     [2, 1, "b5"],
+
                   ],
                   slow: [
                     [-8, 14],
                     [16, 2],
+
                   ],
                   spiral: [
                     [11, 7],
                     [-13, 3],
+
                   ],
                   lure: [[-2, 11]],
+
                 },
                 lure2: {
                   bump: [
@@ -4263,6 +4865,7 @@
                     [21, 18],
                     [8, 13],
                     [-20, 16],
+
                   ],
                   wall: [
                     [12, 10, "w"],
@@ -4272,6 +4875,7 @@
                     [16, 14, "f"],
                     [4, 10, "n"],
                     [16, 10, "se"],
+
                   ],
                   snag: [
                     [-17, 14, "b4"],
@@ -4284,30 +4888,36 @@
                     [-20, 12, "b6"],
                     [13, 6, "b4"],
                     [18, 4, "b4"],
+
                   ],
                   snagtall: [
                     [-21, 8, "t3"],
                     [20, 12, "t1"],
+
                   ],
                   slow: [[-10, 9]],
                   slowbig: [
                     [4, 5],
                     [-16, 22],
+
                   ],
                   bumpbig: [[1, 17]],
                   snagsml: [[14, 3, "c1"]],
                   lure: [[-8, 13]],
+
                 },
                 lure3: {
                   snagtall: [
                     [-8, 9, "t3"],
                     [15, 2, "t2"],
+
                   ],
                   slow: [[0, 7]],
                   bump: [
                     [21, 7],
                     [12, 2],
                     [-16, 13],
+
                   ],
                   snagsml: [[17, 6, "c1"]],
                   snag: [
@@ -4321,14 +4931,17 @@
                     [7, 1, "b5"],
                     [19, 3, "b4"],
                     [-12, 12, "b4"],
+
                   ],
                   spin: [[6, 10]],
                   slowbig: [
                     [-15, 3],
                     [-4, 17],
                     [16, 13],
+
                   ],
                   lure: [[2, 11]],
+
                 },
                 lure4: {
                   snagtall: [[-12, 5, "t3"]],
@@ -4343,21 +4956,26 @@
                     [-15, 8, "b1"],
                     [-7, 2, "b5"],
                     [12, 5, "b4"],
+
                   ],
                   bump: [
                     [-14, 12],
                     [-6, 11],
                     [14, 9],
+
                   ],
                   slow: [
                     [8, 12],
                     [-1, 15],
+
                   ],
+
                 },
                 lure5: {
                   slowbig: [
                     [-11, 11],
                     [-3, 2],
+
                   ],
                   snagtall: [[8, 5, "t2"]],
                   lure: [[-2, 7]],
@@ -4368,14 +4986,18 @@
                     [-9, 6, "b4"],
                     [11, 9, "b4"],
                     [-17, 5, "b2"],
+
                   ],
                   bump: [
                     [-14, 5],
                     [8, 11],
                     [5, 6],
+
                   ],
                   slow: [[0, 13]],
+
                 },
+
               },
               endlessCheckpoints: {
                 checkpoint1: {
@@ -4388,15 +5010,18 @@
                     [-22, 16, "b4"],
                     [18, 7, "b4"],
                     [23, 18, "b6"],
+
                   ],
                   slow: [
                     [20, 2],
                     [-22, 22],
+
                   ],
                   slowbig: [
                     [-18, 2],
                     [16, 25],
                     [-15, 26],
+
                   ],
                   snagtall: [
                     [-24, 2, "t3"],
@@ -4406,17 +5031,20 @@
                     [-20, 6, "t3"],
                     [-29, 4, "t3"],
                     [22, 3, "t3"],
+
                   ],
                   boost: [
                     [2, 19],
                     [-2, 26],
                     [2, 32],
+
                   ],
                   bump: [
                     [19, 12],
                     [11, 19],
                     [-17, 16],
                     [27, 19],
+
                   ],
                   wall: [
                     [14, 16, "f"],
@@ -4427,12 +5055,15 @@
                     [-14, 20, "b"],
                     [10, 16, "sw"],
                     [18, 16, "se"],
+
                   ],
                   checkpoint: [[0, 8]],
                   life: [
                     [3, 1],
                     [-3, 1],
+
                   ],
+
                 },
                 checkpoint2: {
                   blockbig: [[19, 6]],
@@ -4442,11 +5073,13 @@
                     [-23, 2],
                     [21, 25],
                     [-20, 26],
+
                   ],
                   boost: [
                     [2, 26],
                     [-2, 20],
                     [-2, 33],
+
                   ],
                   snagtall: [
                     [-14, 10, "t1"],
@@ -4454,6 +5087,7 @@
                     [-20, 5, "t3"],
                     [14, 2, "t3"],
                     [22, 9, "t3"],
+
                   ],
                   wall: [
                     [10, 20, "sw"],
@@ -4464,10 +5098,12 @@
                     [-10, 16, "se"],
                     [-18, 16, "w"],
                     [14, 20, "f"],
+
                   ],
                   life: [
                     [3, 1],
                     [-3, 1],
+
                   ],
                   snag: [
                     [-24, 14, "b4"],
@@ -4477,6 +5113,7 @@
                     [-26, 5, "b6"],
                     [-29, 8, "b4"],
                     [24, 15, "b4"],
+
                   ],
                   bump: [
                     [-27, 11],
@@ -4484,12 +5121,15 @@
                     [-13, 19],
                     [12, 23],
                     [26, 19],
+
                   ],
                   slow: [
                     [28, 9],
                     [-29, 15],
+
                   ],
                   snagsml: [[-23, 17, "c1"]],
+
                 },
                 checkpoint3: {
                   wall: [
@@ -4506,6 +5146,7 @@
                     [-14, 12, "s"],
                     [-10, 20, "se"],
                     [-26, 8, "b"],
+
                   ],
                   snagsml: [[-21, 6, "c1"]],
                   snag: [
@@ -4516,19 +5157,23 @@
                     [-32, 11, "b6"],
                     [21, 3, "b4"],
                     [16, 4, "b2"],
+
                   ],
                   snagtall: [
                     [21, 14, "t3"],
                     [-24, 9, "t3"],
                     [-18, 18, "t1"],
+
                   ],
                   slowbig: [
                     [-22, 4],
                     [19, 25],
+
                   ],
                   life: [
                     [-3, 1],
                     [3, 1],
+
                   ],
                   checkpoint: [[0, 8]],
                   boost: [[0, 19]],
@@ -4536,18 +5181,23 @@
                     [4, 27],
                     [0, 25],
                     [-4, 27],
+
                   ],
                   bump: [
                     [-14, 16],
                     [17, 16],
                     [-28, 10],
+
                   ],
                   slow: [
                     [-22, 17],
                     [27, 7],
+
                   ],
                   block: [[26, 11]],
+
                 },
+
               },
               allNormal: {
                 large1: {
@@ -4555,6 +5205,7 @@
                   blockbig: [
                     [10, 3],
                     [-16, 12],
+
                   ],
                   wall: [
                     [-12, 8, "f"],
@@ -4565,12 +5216,14 @@
                     [9, 12, "f"],
                     [-6, 14, "n"],
                     [-6, 18, "b"],
+
                   ],
                   bumpbig: [[11, 15]],
                   snagtall: [
                     [-22, 8, "t3"],
                     [17, 5, "t3"],
                     [-16, 6, "t1"],
+
                   ],
                   bump: [
                     [-19, 7],
@@ -4579,23 +5232,28 @@
                     [-15, 18],
                     [-12, 4],
                     [18, 10],
+
                   ],
                   snag: [
                     [19, 4, "b6"],
                     [7, 8, "b1"],
                     [-11, 17, "b1"],
                     [-19, 17, "b6"],
+
                   ],
                   slow: [
                     [-23, 20],
                     [22, 16],
                     [-26, 6],
                     [23, 8],
+
                   ],
                   snagsml: [
                     [18, 12, "c1"],
                     [-6, 1, "c2"],
+
                   ],
+
                 },
                 large2: {
                   blockbig: [[-6, 8]],
@@ -4607,16 +5265,19 @@
                     [9, 12, "se"],
                     [5, 12, "f"],
                     [1, 12, "w"],
+
                   ],
                   slowbig: [
                     [20, 10],
                     [-15, 6],
+
                   ],
                   slow: [
                     [-12, 23],
                     [14, 17],
                     [-22, 16],
                     [1, 2],
+
                   ],
                   bump: [
                     [15, 2],
@@ -4625,10 +5286,12 @@
                     [6, 15],
                     [-15, 14],
                     [-3, 12],
+
                   ],
                   snagtall: [
                     [-7, 14, "t1"],
                     [2, 6, "t3"],
+
                   ],
                   snag: [
                     [18, 1, "b4"],
@@ -4639,12 +5302,15 @@
                     [-1, 4, "b4"],
                     [-9, 3, "b2"],
                     [14, 3, "b4"],
+
                   ],
+
                 },
                 large3: {
                   snagtall: [
                     [21, 5, "t3"],
                     [-3, 7, "t3"],
+
                   ],
                   snag: [
                     [8, 12, "b6"],
@@ -4660,37 +5326,45 @@
                     [-11, 18, "b4"],
                     [9, 18, "b2"],
                     [14, 21, "b4"],
+
                   ],
                   snagsml: [
                     [12, 11, "c1"],
                     [11, 2, "c2"],
                     [-15, 10, "c1"],
+
                   ],
                   bumpbig: [
                     [-6, 3],
                     [-14, 7],
+
                   ],
                   slow: [
                     [-22, 3],
                     [23, 3],
                     [-2, 22],
+
                   ],
                   bump: [
                     [16, 8],
                     [-9, 16],
                     [5, 19],
                     [7, 10],
+
                   ],
                   slowbig: [
                     [-18, 14],
                     [17, 15],
+
                   ],
+
                 },
                 large4: {
                   bump: [
                     [10, 6],
                     [-11, 11],
                     [14, 10],
+
                   ],
                   snag: [
                     [-10, 14, "b6"],
@@ -4702,6 +5376,7 @@
                     [-9, 2, "b4"],
                     [9, 1, "b4"],
                     [-4, 6, "b6"],
+
                   ],
                   slow: [
                     [-4, 3],
@@ -4709,6 +5384,7 @@
                     [10, 21],
                     [17, 15],
                     [-17, 8],
+
                   ],
                   slowbig: [[-15, 17]],
                   blockbig: [[-4, 10]],
@@ -4716,8 +5392,10 @@
                   snagtall: [
                     [-15, 12, "t3"],
                     [13, 5, "t3"],
+
                   ],
                   bumpbig: [[-2, 16]],
+
                 },
                 large5: {
                   bump: [
@@ -4725,12 +5403,14 @@
                     [-9, 3],
                     [-3, 5],
                     [-10, 15],
+
                   ],
                   slow: [
                     [19, 5],
                     [-9, 9],
                     [-17, 13],
                     [14, 17],
+
                   ],
                   blockbig: [[7, 5]],
                   wall: [
@@ -4739,6 +5419,7 @@
                     [0, 14, "f"],
                     [8, 14, "se"],
                     [4, 14, "s"],
+
                   ],
                   slowbig: [[-6, 21]],
                   snag: [
@@ -4747,31 +5428,38 @@
                     [-15, 2, "b4"],
                     [10, 10, "b1"],
                     [-2, 17, "b1"],
+
                   ],
                   snagtall: [
                     [-4, 12, "t1"],
                     [14, 7, "t3"],
                     [-1, 8, "t3"],
+
                   ],
                   snagsml: [
                     [5, 16, "c1"],
                     [-17, 5, "c1"],
+
                   ],
+
                 },
                 large6: {
                   snagtall: [
                     [10, 8, "t3"],
                     [-10, 7, "t3"],
+
                   ],
                   spin: [
                     [-3, 1],
                     [5, 12],
+
                   ],
                   slow: [
                     [5, 3],
                     [-24, 6],
                     [25, 8],
                     [-2, 15],
+
                   ],
                   bump: [
                     [-7, 7],
@@ -4782,11 +5470,13 @@
                     [16, 13],
                     [6, 16],
                     [-3, 23],
+
                   ],
                   bumpbig: [[10, 8]],
                   slowbig: [
                     [-15, 19],
                     [14, 21],
+
                   ],
                   snag: [
                     [-10, 14, "b1"],
@@ -4803,23 +5493,28 @@
                     [-12, 11, "b6"],
                     [12, 11, "b6"],
                     [10, 4, "b2"],
+
                   ],
                   snagsml: [
                     [-5, 8, "c1"],
                     [-18, 4, "c1"],
+
                   ],
+
                 },
                 medium1: {
                   snagsml: [[8, 1, "c1"]],
                   bump: [
                     [10, 14],
                     [-10, 10],
+
                   ],
                   wall: [
                     [-2, 14, "sw"],
                     [6, 14, "se"],
                     [2, 14, "f"],
                     [-2, 10, "n"],
+
                   ],
                   slowbig: [[4, 6]],
                   slow: [[-2, 2]],
@@ -4830,7 +5525,9 @@
                     [-9, 8, "b6"],
                     [4, 10, "b4"],
                     [5, 1, "b1"],
+
                   ],
+
                 },
                 medium2: {
                   snag: [
@@ -4844,27 +5541,33 @@
                     [-8, 11, "b4"],
                     [-10, 15, "b4"],
                     [-4, 15, "b4"],
+
                   ],
                   bump: [
                     [-1, 4],
                     [-11, 12],
                     [5, 15],
+
                   ],
                   snagsml: [[-6, 13, "c1"]],
                   snagtall: [
                     [-7, 5, "t3"],
                     [14, 1, "t3"],
+
                   ],
                   slow: [
                     [12, 10],
                     [0, 14],
+
                   ],
+
                 },
                 medium3: {
                   slow: [
                     [13, 8],
                     [-3, 16],
                     [-15, 14],
+
                   ],
                   snag: [
                     [-11, 18, "b4"],
@@ -4872,20 +5575,24 @@
                     [0, 10, "b4"],
                     [-10, 10, "b6"],
                     [7, 16, "b6"],
+
                   ],
                   snagtall: [
                     [4, 0, "t3"],
                     [-13, 7, "t3"],
                     [-2, 4, "t1"],
+
                   ],
                   spin: [
                     [11, 3],
                     [11, 13],
                     [9, 8],
+
                   ],
                   bump: [
                     [-9, 4],
                     [2, 9],
+
                   ],
                   wall: [
                     [-11, 6, "b"],
@@ -4894,22 +5601,27 @@
                     [6, 10, "n"],
                     [2, 14, "sw"],
                     [6, 14, "se"],
+
                   ],
                   snagsml: [[-9, 16, "c1"]],
+
                 },
                 medium4: {
                   wall: [
                     [-8, 10, "b"],
                     [-8, 6, "e"],
+
                   ],
                   snagtall: [
                     [-12, 4, "t1"],
                     [1, 6, "t3"],
+
                   ],
                   bump: [
                     [-16, 7],
                     [5, 11],
                     [17, 6],
+
                   ],
                   snag: [
                     [10, 7, "b1"],
@@ -4919,12 +5631,15 @@
                     [-14, 9, "b4"],
                     [-1, 5, "b6"],
                     [12, 9, "b2"],
+
                   ],
                   slow: [
                     [9, 3],
                     [14, 13],
                     [-12, 14],
+
                   ],
+
                 },
                 medium5: {
                   snagsml: [[4, 16, "c1"]],
@@ -4932,33 +5647,40 @@
                   slow: [
                     [-18, 6],
                     [14, 10],
+
                   ],
                   bump: [
                     [8, 7],
                     [-11, 10],
                     [9, 14],
+
                   ],
                   wall: [
                     [-2, 13, "sw"],
                     [2, 13, "f"],
+
                   ],
                   slowbig: [[-9, 18]],
                   snagtall: [
                     [1, 3, "t3"],
                     [6, 11, "t1"],
                     [-6, 10, "t3"],
+
                   ],
                   snag: [
                     [-10, 14, "b4"],
                     [6, 3, "b4"],
                     [3, 8, "b6"],
+
                   ],
+
                 },
                 small1: {
                   spin: [[2, 1]],
                   slowbig: [
                     [-4, 4],
                     [11, 9],
+
                   ],
                   bump: [[7, 4]],
                   blockbig: [[-4, 8]],
@@ -4966,11 +5688,14 @@
                   snagtall: [
                     [-12, 7, "t3"],
                     [-6, 3, "t3"],
+
                   ],
                   snag: [
                     [11, 3, "b4"],
                     [-11, 11, "b6"],
+
                   ],
+
                 },
                 small2: {
                   spin: [[-11, 3]],
@@ -4983,7 +5708,9 @@
                     [8, 3, "b4"],
                     [1, 4, "b1"],
                     [-6, 4, "b2"],
+
                   ],
+
                 },
                 small3: {
                   bumpbig: [[2, 10]],
@@ -4994,7 +5721,9 @@
                   bump: [
                     [5, 3],
                     [-8, 5],
+
                   ],
+
                 },
                 small4: {
                   slowbig: [[7, 9]],
@@ -5008,7 +5737,9 @@
                     [-8, 4, "b2"],
                     [-9, 2, "b4"],
                     [8, 2, "b4"],
+
                   ],
+
                 },
                 small5: {
                   snag: [
@@ -5016,24 +5747,29 @@
                     [-10, 9, "b4"],
                     [11, 7, "b4"],
                     [-4, 6, "b4"],
+
                   ],
                   block: [
                     [7, 4],
                     [-7, 2],
+
                   ],
                   bump: [
                     [-2, 10],
                     [8, 8],
                     [-8, 7],
                     [12, 3],
+
                   ],
                   spin: [[2, 1]],
+
                 },
                 small6: {
                   slow: [
                     [-2, 2],
                     [2, 8],
                     [-4, 11],
+
                   ],
                   snag: [
                     [6, 2, "b4"],
@@ -5043,11 +5779,14 @@
                     [8, 7, "b4"],
                     [-6, 7, "b4"],
                     [3, 11, "b2"],
+
                   ],
                   bump: [
                     [10, 4],
                     [-10, 6],
+
                   ],
+
                 },
                 small7: {
                   snag: [
@@ -5056,6 +5795,7 @@
                     [0, 5, "b4"],
                     [5, 2, "b4"],
                     [-8, 2, "b4"],
+
                   ],
                   slow: [
                     [2, 10],
@@ -5063,32 +5803,40 @@
                     [-8, 6],
                     [6, 6],
                     [-4, 2],
+
                   ],
+
                 },
                 small8: {
                   wall: [
                     [-2, 10, "sw"],
                     [2, 10, "se"],
                     [2, 6, "n"],
+
                   ],
                   bump: [
                     [-8, 8],
                     [6, 4],
+
                   ],
                   snag: [
                     [7, 8, "b4"],
                     [-4, 6, "b1"],
                     [-2, 2, "b4"],
+
                   ],
+
                 },
                 small9: {
                   snag: [
                     [5, 9, "b4"],
                     [-6, 2, "b4"],
+
                   ],
                   slow: [
                     [-14, 8],
                     [9, 3],
+
                   ],
                   wall: [
                     [4, 2, "n"],
@@ -5098,22 +5846,27 @@
                     [-8, 6, "w"],
                     [4, 6, "se"],
                     [0, 6, "f"],
+
                   ],
                   snagtall: [[-4, 4, "t1"]],
                   bump: [
                     [-10, 3],
                     [8, 9],
+
                   ],
                   slowbig: [[-5, 16]],
+
                 },
                 small10: {
                   slow: [
                     [12, 10],
                     [-9, 9],
+
                   ],
                   bump: [
                     [6, 8],
                     [-6, 4],
+
                   ],
                   snag: [
                     [2, 9, "b4"],
@@ -5121,22 +5874,27 @@
                     [-3, 4, "b4"],
                     [6, 4, "b4"],
                     [2, 2, "b4"],
+
                   ],
                   snagtall: [[1, 4, "t3"]],
+
                 },
                 small11: {
                   snagsml: [[-6, 2, "c1"]],
                   snag: [
                     [-7, 8, "b4"],
                     [2, 1, "b4"],
+
                   ],
                   wall: [
                     [-4, 6, "sw"],
                     [0, 6, "f"],
                     [4, 6, "se"],
+
                   ],
                   bump: [[0, 8]],
                   snagtall: [[6, 7, "t3"]],
+
                 },
                 small12: {
                   slowbig: [[4, 9]],
@@ -5144,12 +5902,15 @@
                   slow: [
                     [-9, 4],
                     [6, 2],
+
                   ],
                   snag: [
                     [-8, 7, "b4"],
                     [9, 2, "b4"],
                     [-5, 1, "b4"],
+
                   ],
+
                 },
                 small13: {
                   wall: [
@@ -5157,35 +5918,43 @@
                     [4, 6, "se"],
                     [0, 6, "f"],
                     [-4, 6, "w"],
+
                   ],
                   snag: [
                     [6, 9, "b4"],
                     [0, 8, "b4"],
                     [3, 2, "b4"],
+
                   ],
                   bump: [
                     [2, 10],
                     [-8, 8],
                     [-2, 2],
+
                   ],
                   spin: [[7, 1]],
                   snagsml: [[-9, 3, "c2"]],
+
                 },
                 small14: {
                   snag: [
                     [-5, 5, "b3"],
                     [2, 6, "b4"],
+
                   ],
                   bump: [
                     [-9, 8],
                     [6, 6],
                     [3, 2],
+
                   ],
                   bumpbig: [
                     [-3, 4],
                     [-1, 10],
+
                   ],
                   snagsml: [[-3, 7, "c1"]],
+
                 },
                 small15: {
                   snag: [
@@ -5195,59 +5964,74 @@
                     [-5, 6, "b1"],
                     [-6, 9, "b4"],
                     [-8, 4, "b6"],
+
                   ],
                   bump: [
                     [7, 4],
                     [-2, 4],
                     [-10, 8],
+
                   ],
+
                 },
                 small16: {
                   bump: [
                     [-4, 6],
                     [4, 4],
+
                   ],
                   snag: [
                     [-6, 8, "b2"],
                     [-1, 5, "b4"],
                     [-9, 4, "b4"],
                     [7, 3, "b4"],
+
                   ],
                   snagsml: [[4, 7, "c1"]],
                   snagtall: [[-4, 1, "t3"]],
+
                 },
                 tiny1: {
                   snag: [
                     [-4, 3, "b4"],
                     [4, 2, "b1"],
+
                   ],
                   bumpbig: [[1, 5]],
+
                 },
                 tiny2: {
                   snag: [
                     [2, 7, "b4"],
                     [0, 4, "b2"],
+
                   ],
                   bump: [
                     [-4, 4],
                     [4, 2],
+
                   ],
+
                 },
                 tiny3: {
                   spin: [[-3, 7]],
                   snag: [
                     [0, 3, "b2"],
                     [3, 5, "b4"],
+
                   ],
                   bumpbig: [[0, 3]],
+
                 },
                 tiny4: {
                   snag: [[4, 2, "b4"]],
                   bump: [
                     [-1, 4],
                     [4, 5],
+
                   ],
                   snagtall: [[-3, 3, "t3"]],
+
                 },
                 tiny5: {
                   spin: [[-2, 6]],
@@ -5255,20 +6039,25 @@
                   bump: [
                     [4, 6],
                     [2, 2],
+
                   ],
+
                 },
                 tiny6: {
                   bumpbig: [[0, 6]],
                   wall: [[2, 4, "b"]],
                   bump: [[0, 2]],
+
                 },
                 tiny7: {
                   snag: [
                     [4, 5, "b4"],
                     [-1, 4, "b2"],
                     [0, 1, "b4"],
+
                   ],
                   snagtall: [[-4, 1, "t3"]],
+
                 },
                 tiny8: {
                   snag: [
@@ -5277,7 +6066,9 @@
                     [-2, 6, "b1"],
                     [5, 2, "b1"],
                     [6, 6, "b4"],
+
                   ],
+
                 },
                 tiny9: {
                   snag: [
@@ -5285,11 +6076,14 @@
                     [-3, 3, "b2"],
                     [5, 3, "b4"],
                     [1, 5, "b2"],
+
                   ],
                   bump: [
                     [5, 6],
                     [-4, 6],
+
                   ],
+
                 },
                 tiny10: {
                   snagtall: [[0, 3, "t3"]],
@@ -5297,18 +6091,22 @@
                     [4, 2, "b4"],
                     [2, 6, "b4"],
                     [-3, 2, "b6"],
+
                   ],
                   bump: [[-3, 6]],
+
                 },
                 tiny11: {
                   bump: [[4, 8]],
                   wall: [
                     [0, 6, "se"],
                     [-4, 6, "sw"],
+
                   ],
                   snag: [[-5, 2, "b4"]],
                   spin: [[0, 1]],
                   snagsml: [[5, 3, "c2"]],
+
                 },
                 tiny12: {
                   snag: [
@@ -5316,8 +6114,10 @@
                     [4, 2, "b4"],
                     [0, 3, "b1"],
                     [-5, 5, "b4"],
+
                   ],
                   bump: [[2, 6]],
+
                 },
                 tiny13: {
                   snag: [
@@ -5325,16 +6125,20 @@
                     [-4, 4, "b4"],
                     [0, 3, "b1"],
                     [4, 1, "b3"],
+
                   ],
                   snagtall: [[-3, 0, "t3"]],
+
                 },
                 tiny14: {
                   snag: [
                     [-4, 1, "b4"],
                     [4, 3, "b4"],
                     [-7, 4, "b6"],
+
                   ],
                   slowbig: [[-2, 4]],
+
                 },
                 tiny15: {
                   bump: [[7, 9]],
@@ -5344,21 +6148,26 @@
                     [8, 6, "se"],
                     [-4, 6, "sw"],
                     [8, 2, "n"],
+
                   ],
                   snagtall: [[0, 4, "t1"]],
                   snag: [[-5, 2, "b4"]],
                   slow: [[-8, 10]],
+
                 },
                 tiny16: {
                   snag: [
                     [3, 4, "b4"],
                     [0, 2, "b1"],
+
                   ],
                   slow: [
                     [-2, 6],
                     [4, 2],
                     [-4, 2],
+
                   ],
+
                 },
                 tiny17: {
                   snagtall: [[-1, 3, "t3"]],
@@ -5367,7 +6176,9 @@
                     [4, 2, "b4"],
                     [2, 6, "b1"],
                     [-3, 1, "b4"],
+
                   ],
+
                 },
                 tiny18: {
                   bump: [[2, 6]],
@@ -5375,10 +6186,13 @@
                     [4, 1, "b4"],
                     [0, 3, "b1"],
                     [-5, 2, "b4"],
+
                   ],
                   snagsml: [[-2, 5, "c1"]],
                   slow: [[-3, 0]],
+
                 },
+
               },
               allPassive: {
                 passive1: {
@@ -5386,6 +6200,7 @@
                   slow: [
                     [6, 12],
                     [-7, 4],
+
                   ],
                   spin: [
                     [6, 7],
@@ -5393,7 +6208,9 @@
                     [-3, 1],
                     [-7, 7],
                     [4, 2],
+
                   ],
+
                 },
                 passive2: {
                   bumpbig: [[1, 7]],
@@ -5402,17 +6219,21 @@
                     [-8, 10],
                     [5, 2],
                     [-10, 3],
+
                   ],
                   spin: [
                     [-6, 4],
                     [10, 5],
+
                   ],
                   slowbig: [[3, 13]],
                   slow: [
                     [14, 3],
                     [-1, 2],
                     [-13, 7],
+
                   ],
+
                 },
                 passive3: {
                   slowbig: [[-1, 14]],
@@ -5422,50 +6243,63 @@
                     [1, 10],
                     [-11, 10],
                     [-9, 5],
+
                   ],
                   bump: [
                     [-4, 4],
                     [-6, 8],
                     [7, 9],
                     [2, 3],
+
                   ],
+
                 },
                 passive4: {
                   slowbig: [
                     [1, 13],
                     [4, 2],
+
                   ],
                   bumpbig: [[-2, 7]],
                   spin: [
                     [10, 4],
                     [-12, 2],
+
                   ],
                   bump: [
                     [4, 5],
                     [-3, 4],
                     [5, 9],
+
                   ],
                   slow: [
                     [-7, 3],
                     [-9, 10],
                     [10, 9],
+
                   ],
+
                 },
                 passive5: {
                   slow: [
                     [-3, 7],
                     [-10, 9],
+
                   ],
                   slowbig: [
                     [-2, 13],
                     [6, 10],
                     [3, 2],
+
                   ],
                   spiral: [
                     [-8, 4],
                     [7, 6],
+
                   ],
+
                 },
+
               },
               zigzagGates: {
                 gateFirst: {
@@ -5482,12 +6316,15 @@
                     [9, -6],
                     [-9, 2],
                     [11, -8],
+
                   ],
                   marker: [
                     [8, -1],
                     [-8, -1],
+
                   ],
                   gate: [[0, 1]],
+
                 },
                 gateLeft: {
                   guide: [
@@ -5501,12 +6338,15 @@
                     [-8, 2],
                     [-5, 8],
                     [-2, 12],
+
                   ],
                   marker: [
                     [8, -1],
                     [-8, -1],
+
                   ],
                   gate: [[0, 1]],
+
                 },
                 gateRight: {
                   guide: [
@@ -5520,13 +6360,17 @@
                     [5, 8],
                     [-9, -6],
                     [5, -10],
+
                   ],
                   marker: [
                     [8, -1],
                     [-8, -1],
+
                   ],
                   gate: [[0, 1]],
+
                 },
+
               },
               zigzagGateScenes: {
                 center1: {
@@ -5539,7 +6383,9 @@
                     [0, -7, "b4"],
                     [6, -9, "b4"],
                     [-6, -11, "b4"],
+
                   ],
+
                 },
                 center2: {
                   snag: [
@@ -5549,7 +6395,9 @@
                     [16, 4, "b4"],
                     [6, -8, "b4"],
                     [-2, -10, "b4"],
+
                   ],
+
                 },
                 center3: {
                   snag: [
@@ -5561,7 +6409,9 @@
                     [16, 2, "b4"],
                     [-4, 8, "b4"],
                     [4, 10, "b4"],
+
                   ],
+
                 },
                 center4: {
                   snag: [
@@ -5570,7 +6420,9 @@
                     [-16, 1, "b4"],
                     [-4, -9, "b4"],
                     [6, -11, "b4"],
+
                   ],
+
                 },
                 center5: {
                   snag: [
@@ -5583,7 +6435,9 @@
                     [16, -4, "b4"],
                     [2, -10, "b4"],
                     [-4, -12, "b4"],
+
                   ],
+
                 },
                 center6: {
                   snag: [
@@ -5594,8 +6448,11 @@
                     [14, -5, "b4"],
                     [-6, -9, "b4"],
                     [2, -11, "b4"],
+
                   ],
+
                 },
+
               },
               timetrialScenes: {
                 start: {
@@ -5603,6 +6460,7 @@
                     [-17, 45, "t3"],
                     [16, 47, "t3"],
                     [-20, 22, "t1"],
+
                   ],
                   snag: [
                     [22, 20, "b4"],
@@ -5618,6 +6476,7 @@
                     [-30, 36, "b4"],
                     [22, 40, "b4"],
                     [-20, 56, "b2"],
+
                   ],
                   bump: [
                     [-26, 20],
@@ -5634,6 +6493,7 @@
                     [-26, 52],
                     [-12, 56],
                     [-16, 58],
+
                   ],
                   wall: [
                     [12, 24, "sw"],
@@ -5652,18 +6512,22 @@
                     [-24, 32, "s"],
                     [-28, 32, "f"],
                     [-32, 32, "sw"],
+
                   ],
                   ramp: [
                     [14, 40],
                     [-14, 40],
+
                   ],
                   spin: [
                     [-12, 44],
                     [12, 52],
+
                   ],
                   blockbig: [
                     [-16, 50],
                     [17, 44],
+
                   ],
                   slow: [
                     [-28, 50],
@@ -5672,9 +6536,11 @@
                     [6, 54],
                     [-26, 58],
                     [-21, 45],
+
                   ],
                   snagsml: [[-24, 46, "c5"]],
                   coin: [[0, 60]],
+
                 },
                 intro: {
                   ramp: [[0, 54]],
@@ -5683,6 +6549,7 @@
                   bumpbig: [
                     [-20, 20],
                     [18, 18],
+
                   ],
                   slow: [
                     [8, 46],
@@ -5697,6 +6564,7 @@
                     [-12, 20],
                     [-30, 18],
                     [24, 16],
+
                   ],
                   spin: [
                     [20, 26],
@@ -5705,6 +6573,7 @@
                     [32, 18],
                     [-32, 18],
                     [12, 14],
+
                   ],
                   bump: [
                     [-8, 62],
@@ -5727,6 +6596,7 @@
                     [6, 8],
                     [-6, 6],
                     [2, 4],
+
                   ],
                   block: [[-9, 38]],
                   snagtall: [[14, 37, "t3"]],
@@ -5735,6 +6605,7 @@
                     [-4, 6, "c2"],
                     [10, 42, "c4"],
                     [-28, 38, "c1"],
+
                   ],
                   snag: [
                     [-4, 60, "b2"],
@@ -5753,12 +6624,15 @@
                     [-2, 4, "b4"],
                     [24, 36, "b6"],
                     [-26, 36, "b3"],
+
                   ],
+
                 },
                 act1a: {
                   snagsml: [
                     [-18, 11, "c1"],
                     [5, 46, "c1"],
+
                   ],
                   bump: [
                     [-17, 32],
@@ -5786,6 +6660,7 @@
                     [-10, 14],
                     [14, 12],
                     [-14, 10],
+
                   ],
                   snag: [
                     [7, 55, "b6"],
@@ -5803,6 +6678,7 @@
                     [-7, 54, "b6"],
                     [-9, 58, "b1"],
                     [12, 14, "b1"],
+
                   ],
                   wall: [
                     [-26, 48, "b"],
@@ -5838,6 +6714,7 @@
                     [-6, 28, "n"],
                     [6, 28, "n"],
                     [-18, 24, "n"],
+
                   ],
                   life: [[-20, 48]],
                   bumpbig: [
@@ -5845,12 +6722,15 @@
                     [-32, 30],
                     [32, 30],
                     [-29, 54],
+
                   ],
                   coin: [[24, 14]],
                   spiral: [
                     [6, 8],
                     [-6, 6],
+
                   ],
+
                 },
                 act1b: {
                   snag: [
@@ -5867,6 +6747,7 @@
                     [0, 4, "b4"],
                     [11, 34, "b6"],
                     [26, 27, "b2"],
+
                   ],
                   bump: [
                     [-3, 40],
@@ -5892,24 +6773,29 @@
                     [-28, 10],
                     [0, 8],
                     [32, 25],
+
                   ],
                   snagtall: [
                     [-6, 37, "t3"],
                     [10, 39, "t3"],
                     [-22, 30, "t1"],
                     [0, 56, "t1"],
+
                   ],
                   spiral: [
                     [-2, 26],
                     [6, 22],
+
                   ],
                   bumpbig: [
                     [32, 18],
                     [-32, 16],
+
                   ],
                   ramp: [
                     [-16, 14],
                     [16, 14],
+
                   ],
                   wall: [
                     [-4, 58, "sw"],
@@ -5943,8 +6829,10 @@
                     [22, 16, "n"],
                     [-22, 12, "n"],
                     [22, 12, "n"],
+
                   ],
                   coin: [[3, 36]],
+
                 },
                 act2a: {
                   snag: [
@@ -5961,18 +6849,21 @@
                     [5, 12, "b6"],
                     [10, 44, "b4"],
                     [-6, 55, "b4"],
+
                   ],
                   snagtall: [
                     [30, 43, "t2"],
                     [-16, 22, "t1"],
                     [16, 10, "t3"],
                     [9, 47, "t3"],
+
                   ],
                   snagsml: [
                     [10, 15, "c4"],
                     [12, 12, "c5"],
                     [9, 11, "c5"],
                     [25, 40, "c1"],
+
                   ],
                   blockbig: [[10, 7]],
                   boost: [[24, 48]],
@@ -5981,6 +6872,7 @@
                     [20, 34],
                     [6, 32],
                     [-6, 30],
+
                   ],
                   wall: [
                     [4, 40, "b"],
@@ -5990,6 +6882,7 @@
                     [-10, 32, "n"],
                     [-8, 24, "se"],
                     [-12, 24, "f"],
+
                   ],
                   bumpbig: [
                     [-18, 46],
@@ -5999,6 +6892,7 @@
                     [-24, 30],
                     [-26, 22],
                     [-28, 14],
+
                   ],
                   bump: [
                     [12, 58],
@@ -6035,8 +6929,10 @@
                     [-28, 10],
                     [-22, 8],
                     [-26, 6],
+
                   ],
                   coin: [[14, 19]],
+
                 },
                 act2b: {
                   snagtall: [
@@ -6044,6 +6940,7 @@
                     [4, 6, "t1"],
                     [6, 48, "t1"],
                     [-8, 46, "t2"],
+
                   ],
                   wall: [
                     [-4, 4, "e"],
@@ -6069,6 +6966,7 @@
                     [-2, 58, "se"],
                     [-6, 58, "sw"],
                     [-28, 6, "w"],
+
                   ],
                   bump: [
                     [16, 6],
@@ -6100,6 +6998,7 @@
                     [-8, 60],
                     [-26, 60],
                     [24, 62],
+
                   ],
                   snag: [
                     [-6, 10, "b4"],
@@ -6123,24 +7022,29 @@
                     [32, 56, "b4"],
                     [30, 58, "b4"],
                     [26, 60, "b4"],
+
                   ],
                   ramp: [
                     [-16, 12],
                     [26, 16],
+
                   ],
                   bumpbig: [
                     [4, 28],
                     [4, 38],
                     [0, 46],
+
                   ],
                   coin: [[-30, 34]],
                   life: [[24, 34]],
+
                 },
                 act3a: {
                   blockbig: [[0, 52]],
                   block: [
                     [-36, 34],
                     [-14, 11],
+
                   ],
                   ramp: [
                     [20, 6],
@@ -6149,6 +7053,7 @@
                     [-10, 30],
                     [14, 54],
                     [-24, 54],
+
                   ],
                   bumpbig: [
                     [-8, 8],
@@ -6158,10 +7063,12 @@
                     [-36, 46],
                     [36, 58],
                     [-10, 58],
+
                   ],
                   boost: [
                     [-10, 22],
                     [26, 56],
+
                   ],
                   snagsml: [[25, 27, "c1"]],
                   snagtall: [
@@ -6171,6 +7078,7 @@
                     [32, 30, "t3"],
                     [30, 26, "t3"],
                     [-31, 37, "t3"],
+
                   ],
                   bump: [
                     [-26, 4],
@@ -6190,6 +7098,7 @@
                     [-2, 60],
                     [-10, 15],
                     [-35, 39],
+
                   ],
                   snag: [
                     [28, 30, "b6"],
@@ -6226,7 +7135,9 @@
                     [36, 60, "b4"],
                     [-6, 49, "b4"],
                     [10, 16, "b6"],
+
                   ],
+
                 },
                 act3b: {
                   snag: [
@@ -6264,6 +7175,7 @@
                     [30, 8, "b4"],
                     [-20, 6, "b4"],
                     [-26, 4, "b2"],
+
                   ],
                   bump: [
                     [32, 46],
@@ -6285,16 +7197,19 @@
                     [-18, 12],
                     [32, 10],
                     [34, 6],
+
                   ],
                   snagsml: [
                     [18, 42, "c2"],
                     [15, 13, "c1"],
+
                   ],
                   snagtall: [
                     [-36, 27, "t3"],
                     [10, 45, "t3"],
                     [20, 11, "t3"],
                     [34, 46, "t3"],
+
                   ],
                   life: [[-26, 46]],
                   coin: [[22, 22]],
@@ -6306,18 +7221,22 @@
                     [-38, 22],
                     [32, 18],
                     [-20, 8],
+
                   ],
                   ramp: [
                     [-18, 38],
                     [14, 38],
                     [-4, 14],
                     [28, 4],
+
                   ],
+
                 },
                 act4a: {
                   snagsml: [
                     [6, 57, "c1"],
                     [14, 23, "c1"],
+
                   ],
                   snag: [
                     [-16, 52, "b6"],
@@ -6371,6 +7290,7 @@
                     [2, 8, "b6"],
                     [8, 61, "b3"],
                     [-13, 54, "b1"],
+
                   ],
                   snagtall: [
                     [14, 33, "t3"],
@@ -6378,6 +7298,7 @@
                     [-30, 5, "t3"],
                     [7, 23, "t2"],
                     [32, 10, "t3"],
+
                   ],
                   bump: [
                     [5, 24],
@@ -6414,21 +7335,26 @@
                     [-28, 4],
                     [29, 42],
                     [-17, 55],
+
                   ],
                   boost: [
                     [18, 46],
                     [-28, 40],
+
                   ],
                   bumpbig: [
                     [-10, 32],
                     [-30, 12],
                     [32, 6],
+
                   ],
                   ramp: [
                     [24, 22],
                     [-24, 22],
                     [0, 4],
+
                   ],
+
                 },
                 act4b: {
                   slowbig: [
@@ -6438,11 +7364,13 @@
                     [30, 39],
                     [-32, 26],
                     [-31, 37],
+
                   ],
                   ramp: [
                     [22, 18],
                     [0, 8],
                     [-22, 12],
+
                   ],
                   snag: [
                     [15, 34, "b4"],
@@ -6497,6 +7425,7 @@
                     [-8, 8, "b6"],
                     [-1, 30, "b6"],
                     [0, 33, "b4"],
+
                   ],
                   snagtall: [
                     [-32, 57, "t3"],
@@ -6507,10 +7436,12 @@
                     [30, 17, "t3"],
                     [4, 14, "t3"],
                     [-26, 17, "t3"],
+
                   ],
                   blockbig: [
                     [26, 34],
                     [-26, 32],
+
                   ],
                   coin: [[6, 28]],
                   friend: [[-8, 18]],
@@ -6519,6 +7450,7 @@
                     [34, 16],
                     [32, 10],
                     [7, 18],
+
                   ],
                   bump: [
                     [30, 62],
@@ -6547,19 +7479,23 @@
                     [-32, 4],
                     [32, 2],
                     [12, 2],
+
                   ],
                   snagsml: [[14, 60, "c1"]],
+
                 },
                 act5a: {
                   spiral: [
                     [10, 36],
                     [0, 32],
+
                   ],
                   coin: [[6, 30]],
                   slow: [
                     [0, 36],
                     [12, 24],
                     [0, 24],
+
                   ],
                   snag: [
                     [22, 50, "b4"],
@@ -6567,6 +7503,7 @@
                     [-8, 42, "b4"],
                     [-12, 40, "b4"],
                     [-22, 20, "b2"],
+
                   ],
                   snagsml: [
                     [-18, 50, "c5"],
@@ -6578,6 +7515,7 @@
                     [16, 14, "c5"],
                     [-6, 12, "c5"],
                     [-18, 12, "c5"],
+
                   ],
                   bump: [
                     [-18, 58],
@@ -6590,16 +7528,19 @@
                     [28, 14],
                     [-10, 14],
                     [14, 12],
+
                   ],
                   blockbig: [
                     [-14, 52],
                     [16, 44],
                     [-18, 16],
                     [24, 10],
+
                   ],
                   spin: [
                     [-2, 48],
                     [18, 4],
+
                   ],
                   slowbig: [
                     [32, 36],
@@ -6608,7 +7549,9 @@
                     [-2, 28],
                     [-8, 6],
                     [12, 2],
+
                   ],
+
                 },
                 act5b: {
                   bumpbig: [[0, 17]],
@@ -6616,6 +7559,7 @@
                     [-10, 51],
                     [-28, 36],
                     [17, 32],
+
                   ],
                   slowbig: [
                     [-31, 52],
@@ -6624,6 +7568,7 @@
                     [24, 16],
                     [-10, 24],
                     [21, 45],
+
                   ],
                   bump: [
                     [-20, 37],
@@ -6634,6 +7579,7 @@
                     [33, 41],
                     [3, 10],
                     [-5, 49],
+
                   ],
                   wall: [
                     [20, 40, "f"],
@@ -6653,11 +7599,13 @@
                     [10, 46, "b"],
                     [-8, 48, "b"],
                     [-28, 48, "b"],
+
                   ],
                   snagtall: [
                     [16, 38, "t1"],
                     [0, 12, "t1"],
                     [-9, 42, "t3"],
+
                   ],
                   snag: [
                     [-23, 47, "b1"],
@@ -6669,6 +7617,7 @@
                     [-12, 46, "b1"],
                     [29, 35, "b1"],
                     [25, 6, "b6"],
+
                   ],
                   snagsml: [
                     [21, 2, "c2"],
@@ -6682,9 +7631,11 @@
                     [34, 8, "c2"],
                     [-20, 8, "c2"],
                     [-34, 10, "c2"],
+
                   ],
                   life: [[2, 42]],
                   coin: [[-22, 54]],
+
                 },
                 act6a: {
                   snagtall: [
@@ -6695,6 +7646,7 @@
                     [-14, 8, "t3"],
                     [-44, 20, "t3"],
                     [28, 27, "t2"],
+
                   ],
                   snag: [
                     [12, 44, "b4"],
@@ -6737,15 +7689,18 @@
                     [14, 56, "b3"],
                     [-28, 39, "b6"],
                     [16, 49, "b4"],
+
                   ],
                   snagsml: [
                     [26, 22, "c1"],
                     [6, 34, "c2"],
                     [-8, 40, "c1"],
+
                   ],
                   bumpbig: [
                     [-18, 14],
                     [22, 16],
+
                   ],
                   coin: [[22, 58]],
                   life: [[-26, 48]],
@@ -6769,7 +7724,9 @@
                     [-28, 12],
                     [-20, 10],
                     [-16, 6],
+
                   ],
+
                 },
                 act6b: {
                   slowbig: [
@@ -6784,10 +7741,12 @@
                     [-38, 13],
                     [-18, 39],
                     [-33, 43],
+
                   ],
                   block: [
                     [-27, 12],
                     [28, 38],
+
                   ],
                   slow: [
                     [-35, 20],
@@ -6798,6 +7757,7 @@
                     [-2, 30],
                     [42, 42],
                     [-24, 27],
+
                   ],
                   snagtall: [
                     [15, 12, "t3"],
@@ -6805,6 +7765,7 @@
                     [-19, 13, "t3"],
                     [-42, 19, "t3"],
                     [17, 43, "t3"],
+
                   ],
                   snagsml: [[-26, 22, "c1"]],
                   snag: [
@@ -6838,6 +7799,7 @@
                     [28, 29, "b3"],
                     [1, 8, "b6"],
                     [22, 38, "b6"],
+
                   ],
                   bump: [
                     [-16, 4],
@@ -6863,19 +7825,23 @@
                     [10, 50],
                     [0, 52],
                     [-12, 9],
+
                   ],
                   bumpbig: [
                     [0, 6],
                     [8, 46],
+
                   ],
                   spiral: [
                     [-6, 30],
                     [6, 38],
                     [2, 23],
+
                   ],
                   ramp: [[18, 34]],
                   boost: [[-14, 32]],
                   coin: [[-28, 50]],
+
                 },
                 act7a: {
                   snag: [
@@ -6889,6 +7855,7 @@
                     [2, 56, "b4"],
                     [-12, 58, "b2"],
                     [28, 30, "b4"],
+
                   ],
                   snagsml: [[-10, 22, "c1"]],
                   snagtall: [
@@ -6897,6 +7864,7 @@
                     [-28, 32, "t1"],
                     [-30, 37, "t3"],
                     [0, 18, "t1"],
+
                   ],
                   wall: [
                     [24, 34, "f"],
@@ -6920,6 +7888,7 @@
                     [-8, 60, "sw"],
                     [-4, 60, "f"],
                     [4, 16, "sw"],
+
                   ],
                   ramp: [
                     [0, 10],
@@ -6927,6 +7896,7 @@
                     [-24, 28],
                     [6, 54],
                     [-6, 54],
+
                   ],
                   bump: [
                     [-6, 12],
@@ -6944,6 +7914,7 @@
                     [-10, 56],
                     [10, 58],
                     [0, 62],
+
                   ],
                   slowbig: [
                     [-28, 12],
@@ -6951,7 +7922,9 @@
                     [-24, 48],
                     [24, 56],
                     [32, 19],
+
                   ],
+
                 },
                 act7b: {
                   snagtall: [
@@ -6960,6 +7933,7 @@
                     [-4, 42, "t1"],
                     [-16, 16, "t1"],
                     [14, 13, "t3"],
+
                   ],
                   coin: [[0, 8]],
                   bump: [
@@ -6977,11 +7951,13 @@
                     [12, 46],
                     [-4, 48],
                     [10, 54],
+
                   ],
                   ramp: [
                     [-20, 12],
                     [20, 12],
                     [0, 28],
+
                   ],
                   wall: [
                     [-28, 14, "n"],
@@ -7003,6 +7979,7 @@
                     [8, 48, "se"],
                     [-20, 18, "s"],
                     [20, 18, "f"],
+
                   ],
                   snag: [
                     [-34, 14, "b4"],
@@ -7014,6 +7991,7 @@
                     [4, 44, "b4"],
                     [-8, 46, "b4"],
                     [-10, 50, "b2"],
+
                   ],
                   slowbig: [
                     [-14, 24],
@@ -7021,14 +7999,17 @@
                     [-28, 44],
                     [28, 50],
                     [-6, 60],
+
                   ],
                   snagsml: [[12, 20, "c1"]],
+
                 },
                 finish: {
                   bumpbig: [
                     [-28, 26],
                     [15, 40],
                     [26, 26],
+
                   ],
                   finish: [[0, 29, ["default"]]],
                   coin: [[0, 5]],
@@ -7042,6 +8023,7 @@
                     [-14, 31, "t1"],
                     [14, 31, "t1"],
                     [-36, 23, "t3"],
+
                   ],
                   snagsml: [
                     [41, 24, "c1"],
@@ -7055,6 +8037,7 @@
                     [-20, 5, "c3"],
                     [-36, 38, "c1"],
                     [36, 40, "c1"],
+
                   ],
                   bump: [
                     [-39, 28],
@@ -7069,6 +8052,7 @@
                     [35, 23],
                     [-37, 34],
                     [26, 38],
+
                   ],
                   wall: [
                     [32, 46, "b"],
@@ -7100,16 +8084,19 @@
                     [26, 29, "n"],
                     [34, 29, "n"],
                     [-26, 33, "f"],
+
                   ],
                   block: [
                     [-23, 42],
                     [19, 27],
                     [-30, 20],
+
                   ],
                   blockbig: [
                     [14, 43],
                     [26, 21],
                     [-20, 26],
+
                   ],
                   snag: [
                     [-43, 22, "b3"],
@@ -7122,6 +8109,7 @@
                     [33, 18, "b3"],
                     [-42, 31, "b2"],
                     [40, 30, "b2"],
+
                   ],
                   slow: [
                     [-11, 52],
@@ -7130,6 +8118,7 @@
                     [-40, 16],
                     [9, 23],
                     [-45, 38],
+
                   ],
                   slowbig: [
                     [-44, 47],
@@ -7140,8 +8129,11 @@
                     [-25, 14],
                     [-47, 28],
                     [-27, 52],
+
                   ],
+
                 },
+
               },
             };
           }
@@ -7155,6 +8147,7 @@
                   enumerable: !0,
                   configurable: !0,
                   writable: !0,
+
                 })
               : (e[t] = s),
             e
@@ -7500,6 +8493,7 @@
                   enumerable: !0,
                   configurable: !0,
                   writable: !0,
+
                 })
               : (e[t] = s),
             e
@@ -7518,9 +8512,9 @@
               Ce(this, "sleeping", void 0),
               Ce(this, "prevClusters", void 0),
               Ce(this, "startingObjects", void 0),
-              Ce(this, "endless", void 0),
-              Ce(this, "timetrial", void 0),
-              Ce(this, "zigzag", void 0),
+              Ce(this, "ski", void 0),
+              Ce(this, "ski", void 0),
+              Ce(this, "ski", void 0),
               Ce(this, "grid", void 0),
               ke.sys)
             )
@@ -7548,44 +8542,54 @@
                 row: {
                   next: 0,
                   inc: 800,
+
                 },
                 foe: {
                   next: 1e3,
                   inc: 480,
+
                 },
                 npc: {
                   next: 30,
                   inc: 100,
+
                 },
                 ramp: {
                   next: 500,
                   inc: 500,
+
                 },
                 boost: {
                   next: 650,
                   inc: 500,
+
                 },
                 lure: {
                   next: 700,
                   inc: 500,
+
                 },
                 friend: {
                   next: 3e3,
                   inc: 3e3,
+
                 },
                 life: {
                   next: 2e3,
                   inc: 1e3,
+
                 },
                 checkpoint: {
                   next: 5e3,
                   inc: 5e3,
+
                 },
               }),
               (this.timetrial = {
                 row: {
                   next: 0,
                   inc: 1088,
+
                 },
                 counter: 0,
                 clusterList: [
@@ -7606,20 +8610,24 @@
                   "act7a",
                   "act7b",
                   "finish",
+
                 ],
               }),
               (this.zigzag = {
                 row: {
                   next: 0,
                   inc: 1200,
+
                 },
                 life: {
                   next: 1500,
                   inc: 3e3,
+
                 },
                 boost: {
                   next: 3e3,
                   inc: 3e3,
+
                 },
                 counter: 0,
                 clusterList: [
@@ -7639,6 +8647,7 @@
                   "small14",
                   "small15",
                   "small16",
+
                 ],
               }),
               (this.all = []),
@@ -7807,6 +8816,7 @@
                 [-s / 2, 0],
                 [-s / 4, i],
                 [s / 4, i],
+
               ],
               o = a.length;
             for (let s = 0; s < o; s++) {
@@ -8071,6 +9081,7 @@
                   enumerable: !0,
                   configurable: !0,
                   writable: !0,
+
                 })
               : (e[t] = s),
             e
@@ -8136,46 +9147,55 @@
                 dur: 0,
                 weak: 0.4,
                 strong: 0.4,
+
               },
               tiny: {
                 dur: 100,
                 weak: 0.05,
                 strong: 0,
+
               },
               small: {
                 dur: 100,
                 weak: 0.15,
                 strong: 0,
+
               },
               big: {
                 dur: 600,
                 weak: 0.5,
                 strong: 0,
+
               },
               boost: {
                 dur: 3e3,
                 weak: 0,
                 strong: 0.25,
+
               },
               pickup: {
                 dur: 200,
                 weak: 0.2,
                 strong: 0,
+
               },
               ramp: {
                 dur: 200,
                 weak: 0,
                 strong: 0.15,
+
               },
               slow: {
                 dur: 400,
                 weak: 0,
                 strong: 0.15,
+
               },
               crash: {
                 dur: 300,
                 weak: 0.4,
                 strong: 0.4,
+
               },
             };
           }
@@ -8383,6 +9403,7 @@
                   enumerable: !0,
                   configurable: !0,
                   writable: !0,
+
                 })
               : (e[t] = s),
             e
@@ -8462,6 +9483,7 @@
                   enumerable: !0,
                   configurable: !0,
                   writable: !0,
+
                 })
               : (e[t] = s),
             e
@@ -8532,6 +9554,7 @@
                   "downright",
                   "down",
                   "downleft",
+
                 ],
               }),
               this.changeCharacter(te.sys.session.settings.character, !0);
@@ -8885,10 +9908,12 @@
                 start: {
                   x: this.x + e,
                   y: this.y + 8,
+
                 },
                 end: {
                   x: this.x + e - 3 * this.speed.x,
                   y: this.y + 8 - 3 * this.speed.y,
+
                 },
                 time: 0.01,
               });
@@ -8982,6 +10007,7 @@
                   enumerable: !0,
                   configurable: !0,
                   writable: !0,
+
                 })
               : (e[t] = s),
             e
@@ -9047,6 +10073,7 @@
                   enumerable: !0,
                   configurable: !0,
                   writable: !0,
+
                 })
               : (e[t] = s),
             e
@@ -9088,10 +10115,12 @@
                 down: {
                   x: 0,
                   y: 0,
+
                 },
                 move: {
                   x: 0,
                   y: 0,
+
                 },
               });
           }
@@ -9107,10 +10136,12 @@
                   down: {
                     x: t.clientX,
                     y: t.clientY,
+
                   },
                   move: {
                     x: t.clientX,
                     y: t.clientY,
+
                   },
                 });
             }
@@ -9141,6 +10172,7 @@
               const e = {
                   x: te.sys.session.x,
                   y: te.sys.session.y,
+
                 },
                 t = this.checkAngle(e, this.touchData.down);
               te.sys.session.state === Q.Menu
@@ -9194,6 +10226,7 @@
                   enumerable: !0,
                   configurable: !0,
                   writable: !0,
+
                 })
               : (e[t] = s),
             e
@@ -9265,8 +10298,10 @@
                   "arrowright",
                   "b",
                   "a",
+
                 ],
                 ["b", "i", "g"],
+
               ],
               directional: [
                 [
@@ -9278,6 +10313,7 @@
                   "down",
                   "right",
                   "stop",
+
                 ],
                 ["stop", "down", "stop", "down"],
                 ["stop", "right", "down", "left"],
@@ -9290,8 +10326,10 @@
                   "right",
                   "left",
                   "right",
+
                 ],
                 ["stop", "stop", "stop", "stop"],
+
               ],
             };
           }
@@ -9621,6 +10659,7 @@
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
+
               })
             : (Fe[Be] = Ve);
         class Ze {
@@ -9799,6 +10838,7 @@
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
+
               })
             : (e[t] = s);
         })(Ze, "sys", null);
@@ -9814,9 +10854,11 @@
               viewBox: "0 0 2048 2048",
               width: "16",
               height: "16",
+
             },
             a.createElement("path", {
               d: "M1783 384q30 0 55 12t43 31 28 46 11 55v864q0 29-10 55t-29 45-43 32-55 12H137q-30 0-55-12t-43-31-28-46-11-55V528q0-28 10-54t29-46 43-32 55-12h1646zm9 144q0-11-9-16H137q-9 5-9 16v864q0 11 9 16h1646q9-5 9-16V528zM384 768H256V640h128v128zM256 896h256v128H256V896zm1152 0h256v128h-256V896zm0 256h256v128h-256v-128zm-1152 0h256v128H256v-128zm384 0h640v128H640v-128zm0-384H512V640h128v128zm0 128h128v128H640V896zm256 0h128v128H896V896zm256 0h128v128h-128V896zM896 768H768V640h128v128zm256 0h-128V640h128v128zm256 0h-128V640h128v128zm128-128h128v128h-128V640z",
+
             })
           );
         }
@@ -9830,9 +10872,11 @@
               viewBox: "0 0 2048 2048",
               width: "16",
               height: "16",
+
             },
             a.createElement("path", {
               d: "M1184 0q100 0 187 37t153 103 102 152 38 188v864q0 97-25 187t-71 168-110 143-142 110-169 71-187 25q-97 0-187-25t-168-71-143-110-110-142-71-169-25-187V480q0-100 37-187t103-153T548 38 736 0h448zm352 480q0-73-27-137t-76-112-112-75-137-28h-160v640H896V128H736q-73 0-137 27t-112 76-75 112-28 137v864q0 119 45 224t124 183 183 123 224 46q119 0 224-45t183-124 123-183 46-224V480z",
+
             })
           );
         }
@@ -9846,9 +10890,11 @@
               viewBox: "0 0 2048 2048",
               width: "16",
               height: "16",
+
             },
             a.createElement("path", {
               d: "M1600 896q40 0 75 15t61 41 41 61 15 75v384q0 119-45 224t-124 183-183 123-224 46q-144 0-268-55t-226-156l-472-472q-28-28-43-65t-15-76q0-42 16-78t43-64 63-42 78-16q82 0 141 59l107 106V853q-59-28-106-70t-80-95-52-114-18-126q0-93 35-174t96-143 142-96T832 0q93 0 174 35t143 96 96 142 35 175q0 93-37 178t-105 149q35 9 63 30t49 52q45-25 94-25 50 0 93 23t69 66q45-25 94-25zM512 448q0 75 34 143t94 113V448q0-40 15-75t41-61 61-41 75-15q40 0 75 15t61 41 41 61 15 75v256q60-45 94-113t34-143q0-66-25-124t-69-101-102-69-124-26q-66 0-124 25t-102 69-69 102-25 124zm1152 640q0-26-19-45t-45-19q-34 0-47 19t-16 47-1 62 0 61-16 48-48 19q-37 0-50-23t-16-60 2-77 2-77-15-59-51-24q-34 0-47 19t-16 47-1 62 0 61-16 48-48 19q-37 0-50-23t-16-60 2-77 2-77-15-59-51-24q-34 0-47 19t-16 47-1 62 0 61-16 48-48 19q-26 0-45-19t-19-45V448q0-26-19-45t-45-19q-26 0-45 19t-19 45v787q0 23-8 42t-23 35-35 23-42 9q-22 0-42-8t-37-24l-139-139q-21-21-50-21t-50 21-22 51q0 29 21 50l472 473q84 84 184 128t219 45q93 0 174-35t142-96 96-142 36-175v-384z",
+
             })
           );
         }
@@ -9862,9 +10908,11 @@
               viewBox: "0 0 2048 2048",
               width: "16",
               height: "16",
+
             },
             a.createElement("path", {
               d: "M1728 480q17 14 31 31t26 38q35 68 64 139t59 142q37 92 70 186t52 193q8 44 13 88t5 89q0 59-13 115t-45 107q-15 22-37 44t-48 39-56 28-57 11q-31 0-69-27t-77-64-71-76-54-62q-22-25-46-55t-52-49l-24-17q-20-14-42-21t-46-10-48-3-47-1H785q-24 0-47 4t-46 10-43 21l-24 17q-27 20-51 49t-47 55q-21 23-54 62t-71 76-76 64-70 27q-28 0-57-11t-55-28-49-39-37-44q-32-51-45-107T0 1386q0-45 5-89t13-88q8-46 23-100t36-114 43-120 48-119 49-110 46-96q11-20 25-37t32-33v-25q0-12 2-22t9-20 20-18q11-7 35-15t52-17 54-15 40-10q38-8 77-12t77-4q15 0 33 1t33 9h1q23 12 45 25t45 26h362q23-13 40-24t34-19 36-13 47-5q38 0 77 4t77 12q14 3 40 9t53 15 52 17 36 16q25 17 28 37t3 48zm69 1120q36-10 60-32t38-51 19-63 6-67q0-39-4-78t-12-78q-20-106-58-208t-80-202q-23-54-45-108t-50-106q-8-15-20-23t-23-18-20-20-8-32v-20q-57-20-115-32t-119-12h-11q-6 0-11 1-38 22-57 34t-37 18-38 7-61 1H897q-40 0-61-1t-38-7-37-18-57-34q-5-1-11-1t-11 0q-60 0-118 12t-116 32q0 28-5 44t-30 33q-11 6-20 15t-16 21q-28 51-50 105t-45 109q-41 99-79 201t-59 209q-8 38-12 77t-4 79q0 33 5 66t20 63 37 51 60 33q15-9 40-32t52-52 51-56 38-44q10-11 26-30t35-38 35-36 31-25q5-3 9-6t9-6q28-21 59-32t63-17 66-7 68-2h384q34 0 67 1t66 7 64 17 59 33q5 3 9 6t9 6q13 8 30 24t36 36 34 39 27 30q15 17 38 44t49 54 51 51 42 35zm-773-960q26 0 45 19t19 45q0 26-19 45t-45 19q-26 0-45-19t-19-45q0-26 19-45t45-19z",
+
             })
           );
         }
@@ -9890,6 +10938,7 @@
                   enumerable: !0,
                   configurable: !0,
                   writable: !0,
+
                 })
               : (e[t] = s),
             e
@@ -9927,6 +10976,7 @@
                     {
                       className:
                         this.props.managedClasses.howToPlayModal_paragraph,
+
                     },
                     a.createElement(
                       "strong",
@@ -9941,6 +10991,7 @@
                     {
                       className:
                         this.props.managedClasses.howToPlayModal_paragraph,
+
                     },
                     a.createElement(
                       "strong",
@@ -9955,6 +11006,7 @@
                     {
                       className:
                         this.props.managedClasses.howToPlayModal_paragraph,
+
                     },
                     a.createElement(
                       "strong",
@@ -10017,6 +11069,7 @@
               $e({}, this.unhandledProps(), {
                 onKeyDown: Ye,
                 content: this.renderHowToPlayContent,
+
               })
             );
           }
@@ -10069,17 +11122,20 @@
               {
                 className:
                   this.props.managedClasses.howToPlayModal_bulletedList,
+
               },
               a.createElement(
                 "li",
                 {
                   className: i,
+
                 },
                 a.createElement(
                   "div",
                   {
                     "aria-hidden": !0,
                     className: s,
+
                   },
                   ((l = t),
                   a.createElement(
@@ -10089,6 +11145,7 @@
                       height: 20,
                       viewBox: "0 0 20 20",
                       className: l,
+
                     },
                     a.createElement("path", {
                       d: "M7.15 4.35c.2.2.5.2.7 0L9.5 2.71V6.5a.5.5 0 001 0V2.7l1.65 1.65a.5.5 0 00.7-.7l-2.5-2.5a.5.5 0 00-.7 0l-2.5 2.5a.5.5 0 000 .7z",
@@ -10101,6 +11158,7 @@
                     }),
                     a.createElement("path", {
                       d: "M7.85 15.65a.5.5 0 00-.7.7l2.5 2.5c.2.2.5.2.7 0l2.5-2.5a.5.5 0 00-.7-.7l-1.65 1.64V13.5a.5.5 0 00-1 0v3.8l-1.65-1.65z",
+
                     })
                   ))
                 ),
@@ -10110,12 +11168,14 @@
                 "li",
                 {
                   className: i,
+
                 },
                 a.createElement(
                   "div",
                   {
                     "aria-hidden": !0,
                     className: s,
+
                   },
                   (function (e) {
                     return a.createElement(
@@ -10126,9 +11186,11 @@
                         viewBox: "0 0 28 28",
                         className: e,
                         xmlns: "http://www.w3.org/2000/svg",
+
                       },
                       a.createElement("path", {
                         d: "M9.28568 2.52142C9.38509 2.21078 9.67385 2 10 2H18.75C18.998 2 19.23 2.12264 19.3697 2.32761C19.5094 2.53258 19.5388 2.79337 19.4481 3.02424L17.1004 8.99999H22.25C22.5476 8.99999 22.8171 9.17598 22.9367 9.44849C23.0564 9.72101 23.0035 10.0385 22.8021 10.2576L8.55213 25.7576C8.32001 26.0101 7.94619 26.0729 7.64426 25.9102C7.34233 25.7476 7.18921 25.4008 7.2724 25.0681L9.53942 16H6C5.76052 16 5.53543 15.8856 5.39423 15.6922C5.25303 15.4987 5.2127 15.2495 5.28569 15.0214L9.28568 2.52142Z",
+
                       })
                     );
                   })(t)
@@ -10139,12 +11201,14 @@
                 "li",
                 {
                   className: i,
+
                 },
                 a.createElement(
                   "div",
                   {
                     "aria-hidden": !0,
                     className: s,
+
                   },
                   (function (e) {
                     return a.createElement(
@@ -10154,9 +11218,11 @@
                         height: 20,
                         viewBox: "0 0 20 20",
                         className: e,
+
                       },
                       a.createElement("path", {
                         d: "M3.07 9.05a7 7 0 0112.55-3.22l.13.17H12.5a.5.5 0 100 1h4a.5.5 0 00.5-.5v-4a.5.5 0 00-1 0v2.2a8 8 0 101.99 4.77.5.5 0 00-1 .08 7 7 0 11-13.92-.5z",
+
                       })
                     );
                   })(t)
@@ -10194,6 +11260,7 @@
                     className: o,
                     "aria-checked": i,
                     tabIndex: i ? 0 : -1,
+
                   },
                   t("")
                 )
@@ -10205,6 +11272,7 @@
                 className:
                   this.props.managedClasses.howToPlayModal_inputButtonGroup,
                 role: "radiogroup",
+
               },
               e
             );
@@ -10217,12 +11285,14 @@
             howToPlayModal_bulletedList: {
               listStyle: "none",
               color: p.CH,
+
             },
             howToPlayModal_listItem: {
               ...(0, Qe.Sh)("t7"),
               display: "flex",
               alignItems: "center",
               marginBottom: "0.25em",
+
             },
             howToPlayModal_icon: {
               color: p.CH,
@@ -10230,14 +11300,17 @@
               padding: "4px",
               height: "16px",
               width: "16px",
+
             },
             howToPlayModal_iconContainer: {
               marginInlineEnd: "12px",
               display: "inline-block",
+
             },
             howToPlayModal_inputButton: {},
             howToPlayModal_inputButton__selected: {
               backgroundColor: et.Ob,
+
             },
             howToPlayModal_inputButtonGroup: {
               display: "flex",
@@ -10245,10 +11318,13 @@
               justifyContent: "center",
               marginTop: "12px",
               marginBottom: "8px",
+
             },
             howToPlayModal_paragraph: {
               marginBottom: "0.5em",
+
             },
+
           },
           st = (0, c.ZP)(tt)(Je);
 
@@ -10273,6 +11349,7 @@
                   enumerable: !0,
                   configurable: !0,
                   writable: !0,
+
                 })
               : (e[t] = s),
             e
@@ -10286,6 +11363,7 @@
           rt = {
             ...l.fn,
             neutralPalette: (0, A.D)((0, H.in)(nt)),
+
           },
           lt = "toggleSettingsMenu";
         class ht extends O.Z {
@@ -10312,6 +11390,7 @@
                     oe({
                       ...re.getState(),
                       highVisibilityMode: e,
+
                     })
                   ),
                   (te.sys.session.settings.hitbox = e),
@@ -10324,6 +11403,7 @@
                     oe({
                       ...re.getState(),
                       gameSpeed: e,
+
                     })
                   );
               }),
@@ -10332,6 +11412,7 @@
                   oe({
                     ...re.getState(),
                     mode: e,
+
                   })
                 ),
                   Ze.sys.changeGameState(Q.Menu),
@@ -10343,6 +11424,7 @@
                   oe({
                     ...re.getState(),
                     theme: newTheme,
+
                   })
                 ),
                   Ze.sys.updateTheme(newTheme),
@@ -10391,6 +11473,7 @@
                     acceptMessage: Z.pz.getString("close"),
                     dismiss: this.closeModal,
                     closeButtonToolTip: Z.pz.getString("close"),
+
                   })
                 );
               }),
@@ -10404,6 +11487,7 @@
                     dismiss: this.closeModal,
                     closeButtonToolTip: Z.pz.getString("close"),
                     content: this.getGameCreditsModalBody,
+
                   })
                 );
               }),
@@ -10424,6 +11508,7 @@
                           .settingsHamburgerMenu_creditsTable_specialThanks,
                       size: C.Gm._7,
                       tag: C.lb.h3,
+
                     },
                     Z.pz.getString("specialThanks")
                   ),
@@ -10445,6 +11530,7 @@
                     handleConfirm: this.resetStats,
                     handleReject: this.closeModal,
                     onClick: ot,
+
                   })
                 );
               }),
@@ -10474,6 +11560,7 @@
                 n.h,
                 {
                   designSystem: rt,
+
                 },
                 a.createElement(
                   v.ZP,
@@ -10481,6 +11568,7 @@
                     value: nt,
                     tag: null,
                     drawBackground: !1,
+
                   },
                   a.createElement(
                     k.XC,
@@ -10502,9 +11590,11 @@
                         viewBox: "0 0 24 24",
                         className: e,
                         xmlns: "http://www.w3.org/2000/svg",
+
                       },
                       a.createElement("path", {
                         d: "M12.0124 2.25C12.7464 2.25846 13.4775 2.34326 14.1939 2.50304C14.5067 2.57279 14.7406 2.83351 14.7761 3.15196L14.9463 4.67881C15.0233 5.37986 15.6152 5.91084 16.3209 5.91158C16.5105 5.91188 16.6982 5.87238 16.8734 5.79483L18.2741 5.17956C18.5654 5.05159 18.9057 5.12136 19.1232 5.35362C20.1354 6.43464 20.8892 7.73115 21.3279 9.14558C21.4225 9.45058 21.3137 9.78203 21.0566 9.9715L19.8151 10.8866C19.461 11.1468 19.2518 11.56 19.2518 11.9995C19.2518 12.4389 19.461 12.8521 19.8159 13.1129L21.0585 14.0283C21.3156 14.2177 21.4246 14.5492 21.3299 14.8543C20.8914 16.2685 20.138 17.5649 19.1264 18.6461C18.9091 18.8783 18.569 18.9483 18.2777 18.8206L16.8714 18.2045C16.4691 18.0284 16.007 18.0542 15.6268 18.274C15.2466 18.4937 14.9935 18.8812 14.9452 19.3177L14.7761 20.8444C14.7413 21.1592 14.5124 21.4182 14.2043 21.4915C12.7558 21.8361 11.2467 21.8361 9.79828 21.4915C9.49015 21.4182 9.26129 21.1592 9.22643 20.8444L9.0576 19.32C9.00802 18.8843 8.75459 18.498 8.37467 18.279C7.99475 18.06 7.53345 18.0343 7.13244 18.2094L5.72582 18.8256C5.43446 18.9533 5.09428 18.8833 4.87703 18.6509C3.86487 17.5685 3.11144 16.2705 2.67344 14.8548C2.57911 14.5499 2.68811 14.2186 2.94509 14.0293L4.18842 13.1133C4.54256 12.8531 4.75172 12.4399 4.75172 12.0005C4.75172 11.561 4.54256 11.1478 4.18796 10.8873L2.94541 9.97285C2.68804 9.78345 2.57894 9.45178 2.67361 9.14658C3.11236 7.73215 3.86619 6.43564 4.87837 5.35462C5.09584 5.12236 5.43618 5.05259 5.72749 5.18056L7.12786 5.79572C7.53081 5.97256 7.99404 5.94585 8.37601 5.72269C8.75633 5.50209 9.00953 5.11422 9.05841 4.67764L9.22849 3.15196C9.26401 2.83335 9.49811 2.57254 9.81105 2.50294C10.5283 2.34342 11.2602 2.25865 12.0124 2.25ZM11.9999 8.99995C10.3431 8.99995 8.99994 10.3431 8.99994 12C8.99994 13.6568 10.3431 15 11.9999 15C13.6568 15 14.9999 13.6568 14.9999 12C14.9999 10.3431 13.6568 8.99995 11.9999 8.99995Z",
+
                       })
                     ))
                   )
@@ -10541,6 +11631,7 @@
                 anchor: this.buttonRef,
                 onDismiss: this.dismissMenu,
                 onClick: ot,
+
               },
 
               // close menu button
@@ -10552,6 +11643,7 @@
                 {
                   jssStyleSheet: y,
                   onClick: this.onNewGameClick,
+
                 },
                 Z.pz.getString("newGame")
               ),
@@ -10569,6 +11661,7 @@
                   className:
                     this.props.managedClasses
                       .settingsHamburgerMenu_flyout_score,
+
                 },
                 ((t =
                   this.props.managedClasses
@@ -10580,9 +11673,11 @@
                     height: 20,
                     viewBox: "0 0 20 20",
                     className: t,
+
                   },
                   a.createElement("path", {
                     d: "M9.1 2.9a1 1 0 011.8 0l1.93 3.91 4.31.63a1 1 0 01.56 1.7l-3.13 3.05.74 4.3a1 1 0 01-1.45 1.05L10 15.51l-3.86 2.03a1 1 0 01-1.45-1.05l.74-4.3L2.3 9.14a1 1 0 01.56-1.7l4.31-.63L9.1 2.9z",
+
                   })
                 )),
                 Z.pz.getStringF("bestScoreFlyout", e)
@@ -10630,6 +11725,7 @@
                   this.props.managedClasses.settingsHamburgerMenu_closeButton,
                 title: Z.pz.getString("close"),
                 onClick: this.dismissMenu,
+
               },
               (0, F.p)(
                 this.props.managedClasses.settingsHamburgerMenu_closeButton_icon
@@ -10649,6 +11745,7 @@
               {
                 className:
                   this.props.managedClasses.settingsHamburgerMenu_flyout_row,
+
               },
               a.createElement(
                 E.__,
@@ -10656,6 +11753,7 @@
                   className:
                     this.props.managedClasses
                       .settingsHamburgerMenu_flyout_label,
+
                 },
                 o
                   ? Z.pz.getString("gameModeSelectLabelDisabled")
@@ -10669,6 +11767,7 @@
                   onValueChange: this.onGameModeChange,
                   selectedItems: [i],
                   disabled: o,
+
                 },
                 a.createElement(L.$m, {
                   id: q.Endless,
@@ -10684,6 +11783,7 @@
                   id: q.ZigZag,
                   value: q.ZigZag,
                   displayString: e,
+
                 })
               )
             );
@@ -10699,6 +11799,7 @@
               {
                 className:
                   this.props.managedClasses.settingsHamburgerMenu_flyout_row,
+
               },
               a.createElement(
                 E.__,
@@ -10706,6 +11807,7 @@
                   className:
                     this.props.managedClasses
                       .settingsHamburgerMenu_flyout_label,
+
                 },
                 Z.pz.getString("themeSelectLabel")
               ),
@@ -10716,16 +11818,18 @@
                   menu: g.gj,
                   onValueChange: this.onGameThemeChange,
                   selectedItems: [this.props.theme],
+
                 },
                 a.createElement(L.$m, {
-                  id: "surf",
-                  value: "surf",
+                  id: "ski",
+                  value: "ski",
                   displayString: Z.pz.getString("surfTheme"),
                 }),
                 a.createElement(L.$m, {
                   id: "ski",
                   value: "ski",
                   displayString: Z.pz.getString("skiTheme"),
+
                 })
               )
             );
@@ -10742,11 +11846,13 @@
                   className:
                     this.props.managedClasses
                       .settingsHamburgerMenu_flyout_toggleRow,
+
                 },
                 a.createElement(
                   E.__,
                   {
                     htmlFor: "highVisibilityMode",
+
                   },
                   Z.pz.getString("highVisiblityModeToggleLabel")
                 ),
@@ -10757,6 +11863,7 @@
                   unselectedMessage: t,
                   selected: this.props.highVisibilityMode,
                   onChange: this.onHighVisiblityModeChange,
+
                 })
               ),
               a.createElement(
@@ -10765,11 +11872,13 @@
                   className:
                     this.props.managedClasses
                       .settingsHamburgerMenu_flyout_toggleRow,
+
                 },
                 a.createElement(
                   E.__,
                   {
                     htmlFor: "reducedSpeedMode",
+
                   },
                   Z.pz.getString("reducedSpeedModeToggleLabel")
                 ),
@@ -10781,6 +11890,7 @@
                   unselectedMessage: t,
                   selected: this.props.gameSpeed !== se,
                   onChange: this.onReducedSpeedModeChange,
+
                 })
               )
             );
@@ -10792,11 +11902,13 @@
                 className:
                   this.props.managedClasses
                     .settingsHamburgerMenu_flyout_shareRow,
+
               },
               a.createElement(
                 E.__,
                 {
                   htmlFor: "shareButton",
+
                 },
                 Z.pz.getString("share")
               ),
@@ -10807,6 +11919,7 @@
                   jssStyleSheet: f,
                   onClick: this.copyShareLinkToClipboard,
                   beforeContent: this.state.shareLinkCopied ? B : V,
+
                 },
                 this.state.shareLinkCopied
                   ? Z.pz.getString("shareLinkCopied")
@@ -10821,12 +11934,14 @@
                 className:
                   this.props.managedClasses
                     .settingsHamburgerMenu_flyout_buttonSection,
+
               },
               a.createElement(
                 I.Of,
                 {
                   jssStyleSheet: f,
                   onClick: this.openHowToPlayModal,
+
                 },
                 Z.pz.getString("howToPlayButton")
               ),
@@ -10835,6 +11950,7 @@
                 {
                   jssStyleSheet: f,
                   onClick: this.openGameCreditsModal,
+
                 },
                 Z.pz.getString("gameCreditsButton")
               ),
@@ -10843,6 +11959,7 @@
                 {
                   jssStyleSheet: f,
                   onClick: this.confirmResetStats,
+
                 },
                 Z.pz.getString("resetAllStats")
               )
@@ -10865,6 +11982,7 @@
             a.createElement(r.f, {
               modal: e,
               rootElement: document.getElementById("modal-root"),
+
             })
           );
         }
@@ -10923,11 +12041,13 @@
                       o.zt,
                       {
                         store: re,
+
                       },
                       a.createElement(
                         n.h,
                         {
                           designSystem: l.fn,
+
                         },
                         a.createElement(dt, null)
                       )
@@ -10969,6 +12089,7 @@
                 {
                   className: this.generateClassNames(),
                   href: this.props.href || null,
+
                 },
                 this.renderDisabledAttribute()
               ),
@@ -10987,6 +12108,7 @@
               return this.tag === i.a
                 ? {
                     "aria-disabled": !0,
+
                   }
                 : {
                     disabled: !0,
@@ -11108,17 +12230,20 @@
               Object.assign(
                 {
                   ref: this.rootElement,
+
                 },
                 this.unhandledProps(),
                 {
                   className: this.generateClassNames(),
                   "aria-hidden": !this.props.visible,
+
                 }
               ),
               r.createElement(
                 "div",
                 {
                   className: (0, o.A)(e),
+
                 },
                 this.renderModalOverlay(),
                 r.createElement(
@@ -11131,10 +12256,12 @@
                     style: {
                       height: this.props.contentHeight,
                       width: this.props.contentWidth,
+
                     },
                     "aria-describedby": this.props.describedBy,
                     "aria-labelledby": this.props.labelledBy,
                     "aria-label": this.props.label,
+
                   },
                   this.props.children
                 )
@@ -11211,6 +12338,7 @@
                 tabIndex: -1,
                 style: {
                   touchAction: "none",
+
                 },
               });
           }
@@ -11261,6 +12389,7 @@
                 this.generateAttributes(),
                 {
                   className: this.generateClassNames(),
+
                 }
               )
             );
@@ -11762,7 +12891,9 @@
                     listboxItemFocused: this.listboxItemfocused,
                     listboxItemInvoked: this.listboxItemInvoked,
                     listboxMultiselectable: this.props.multiselectable,
+
                   },
+
                 },
                 this.renderChildren()
               )
@@ -11991,6 +13122,7 @@
                     "aria-labelledby": i,
                     "aria-describedby": a,
                     "aria-expanded": t.isMenuOpen,
+
                   },
                   t.displayString
                 );
@@ -12177,6 +13309,7 @@
                   t,
                   !(0, c.Z)(this.props.menuFlyoutConfig) &&
                     this.props.menuFlyoutConfig.scaleToFit,
+
                 ],
                 [s, this.props.disabled],
                 [i, this.state.isMenuOpen],
@@ -12195,6 +13328,7 @@
               onChange: this.onSelectValueChange,
               style: {
                 display: "none",
+
               },
             });
           }
@@ -12238,7 +13372,9 @@
                       "select_menuDisabled",
                       ""
                     ),
+
                   },
+
                 },
                 this.props.children
               ),
@@ -12253,11 +13389,13 @@
                   Object.assign(
                     {
                       anchor: this.rootElement,
+
                     },
                     this.props.menuFlyoutConfig,
                     {
                       managedClasses:
                         this.generateViewportPositionerClassNames(),
+
                     }
                   ),
                   s
@@ -12350,6 +13488,7 @@
             return "boolean" == typeof e.selected && e.selected !== t.selected
               ? {
                   selected: e.selected,
+
                 }
               : null;
           }
@@ -12370,6 +13509,7 @@
                 "div",
                 {
                   className: (0, a.A)(e),
+
                 },
                 o.createElement("input", {
                   className: (0, a.A)(t),
@@ -12384,6 +13524,7 @@
                 }),
                 o.createElement("span", {
                   className: (0, a.A)(s),
+
                 })
               ),
               this.renderStatusMessage()
@@ -12412,6 +13553,7 @@
                   className: (0, a.A)(this.props.managedClasses.toggle_label),
                   id: this.props.labelId,
                   htmlFor: this.props.inputId,
+
                 },
                 this.props.children
               );
@@ -12425,6 +13567,7 @@
                   className: (0, a.A)(
                     this.props.managedClasses.toggle_statusMessage
                   ),
+
                 },
                 this.generateToggleStateLabel()
               );
@@ -12599,6 +13742,7 @@
                         ? {
                             height: `${this.state.verticalSelectedPositionHeight}px`,
                             width: `${this.state.horizontalSelectedPositionWidth}px`,
+
                           }
                         : {}
                     ),
@@ -12628,6 +13772,7 @@
                         null === this.state.left
                           ? null
                           : `${this.state.left}px`,
+
                     }
                   ),
                   e
@@ -12643,6 +13788,7 @@
                           this.state.validRefChecksRemaining - 1,
                         initialLayoutComplete:
                           this.state.validRefChecksRemaining <= 1,
+
                       })
                     : this.enableComponent()
                   : this.disable();
@@ -12667,6 +13813,7 @@
                           root: e,
                           rootMargin: "0px",
                           threshold: [0, 1],
+
                         }
                       )),
                       this.collisionDetector.observe(this.rootElement.current),
@@ -13012,6 +14159,7 @@
                       xTranslate: this.getHorizontalTranslate(t),
                       yTranslate: this.getVerticalTranslate(e),
                       initialLayoutComplete: !0,
+
                     },
                     this.getHorizontalPositioningState(t, s),
                     this.getVerticalPositioningState(e, s)
@@ -13333,6 +14481,7 @@
               (e.inset = "inset");
           })(o || (o = {}));
       },
+
     },
     s = {};
 
